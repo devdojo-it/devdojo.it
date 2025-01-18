@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+
+  min-inline-size: 100vw;
+  min-block-size: 100vh;
+
+  overflow-x: hidden;
+}
+
+:root {
+  --font-size--base: 1.6rem;
+  --line-height: 1.5;
+  --font-ratio: 1.125; /* major second */
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  --font-size: var(--font-size--base);
+
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+
+  /* TEST GRADIENT HEIGHT TEST */
+  /* block-size: 530rem; */
+
+  color: #fff;
+
+  background: hsl(270, 85%, 31%);
+  background: linear-gradient(180deg, hsl(270, 85%, 31%) 0%, hsl(272, 97%, 15%) 100%);
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  font-family: "RocknRoll One", serif;
+}
+
+:where(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+
+  font-size: var(--font-size);
+
+  + :where(h1, h2, h3, h4, h5, h6, p) {
+    margin-block-start: 1rem;
+  }
+}
+
+h1 {
+  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 6));
+}
+
+h2 {
+  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 5));
+}
+
+h3 {
+  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 4));
+}
+
+h4 {
+  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 3));
+}
+
+h5 {
+  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 2));
+}
+
+h6 {
+  --font-size: calc(var(--font-size--base) * var(--font-ratio));
+}
+
+a {
+  cursor: pointer;
+}
+
+header {
+  position: relative;
+
+  inline-size: 100%;
+  aspect-ratio: 1920/576;
+
+  .logos-container {
+    position: absolute;
+    inset: 0 0 auto 0;
+
+    padding: 6.5rem 4.5rem 0;
+  }
+
+  > figure {
+    position: relative;
+
+    inline-size: 100%;
+    block-size: 57.6rem;
+
+    margin: 0;
+
+    background: transparent;
+    background: linear-gradient(180deg, transparent 0%, hsl(190, 58%, 74%) 100%);
+
+    img {
+      position: absolute;
+
+      &.pagoda {
+        inset: 26rem auto auto -35rem;
+      }
+
+      &.torii {
+        inset: 31rem 0 auto 0;
+        margin: auto;
+      }
+
+      &.sakura {
+        inset: 17rem -12rem auto auto;
+      }
+
+      &.moon {
+        inset: 24rem 0 auto 0;
+
+        inline-size: 27rem;
+        aspect-ratio: 1;
+        margin: auto;
+      }
+
+      &.fisherman {
+        inset: 65rem 0 auto 10rem;
+      }
+    }
+  }
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    margin-block-start: 18rem;
+  }
+}
+
+@media screen and (width >= 1200px) {
+  :root {
+    --font-size--base: 2rem;
+  }
+}
+
+/* text color: #fff */
+
+/* normal text - Nunito Regular (400) 16px/24px */
+/* menu - Nunito Bold (700) 20px/27px */
+/* title h2 - RocknRoll One Regular (400) 70px/100px */
+/* title h3 - RocknRoll One Regular (400) 60px/70px */
+/* card-tag - Nunito Black (800) 25px/70px */
+/* card-title - Nunito Regular (400) 35px/48px */
+/* card-date - Nunito Bold (700) 20px/70px */
+/* card-text - Nunito Regular (400) 16px/24px */
+/* card-live-on - Nunito Black (800) 14px/20px */
+/* card-badge - Nunito ExtraBold (900) 10px/20px */
+/* video title - RocknRoll One Regular (400) 16px/20px */
+/* sensei name - RocknRoll One Regular (400) 20px/24px */
+/* sensei role - Nunito Regular (400) 16px/24px */
+/* footer titles - RocknRoll One Regular (400) 20px/24px */
+/* footer subtitle - Nunito Regular (400) 16px/24px */
+/* buttons - Nunito Black (800) 16px/20px */
+/* buttons color - #fff */
+
+/* buttons primary - #F90493 */
+/* buttons secondary - #fff/52% D9D9D9 */
+
+/* scrollbar background - #d9d9d9/60% */
+/* scrollbar thumb - #864FF6 */
+
+/* https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034 */
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+.sr-only-focusable:focus,
+.sr-only-focusable:active {
+  clip: auto !important;
+  clip-path: none !important;
+  height: auto !important;
+  margin: auto !important;
+  overflow: visible !important;
+  width: auto !important;
+  white-space: normal !important;
+}
+
+.logos-container {
+  display: flex;
+  place-content: space-between;
+  place-items: center;
+}
+
+.background {
+  background: hsl(270, 85%, 31%);
+  background: linear-gradient(180deg, hsl(270, 85%, 31%) 0%, hsl(272, 97%, 15%) 100%);
+}
+
+.background-hero {
+  background: transparent;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(150, 214, 227, 1) 47%,
+    rgba(31, 167, 196, 1) 100%
+  );
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  font-size: 30px;
+  line-height: 1.3;
+
+  &[primary] {
+    color: #fff;
+    background-color: hsl(325, 97%, 50%);
+
+    &:hover {
+      background-color: hsl(325, 97%, 45%);
+    }
+
+    &:active {
+      background-color: hsl(325, 97%, 40%);
+    }
+  }
+}

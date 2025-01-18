@@ -1,0 +1,21 @@
+{
+  "name": "devdojo.it",
+  "version": "0.0.1",
+  "description": "Web Site of DevDojo.it",
+  "repository": "git@github.com:devdojo-it/devdojo.it.git",
+  "author": "DevDojo",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "clear:cache": "rm -rf .parcel-cache dist",
+    "clear": "yarn clear:cache && rm -rf node_modules yarn.lock",
+    "reset": "yarn clear && yarn",
+    "start": "parcel ./src/index.html",
+    "restart": "yarn clear:cache && yarn start",
+    "prebuild": "yarn clear:cache",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
