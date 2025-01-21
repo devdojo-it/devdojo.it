@@ -50,5 +50,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           source: "dist/*"
-          target: "/home/u825938081/domains/devdojo.it/public_html/"
+          target: "/home/u825938081/domains/devdojo.it/public_html"
           rm: true
+          strip_components: 1
