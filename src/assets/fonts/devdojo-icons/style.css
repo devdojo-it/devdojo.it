@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'devdojo-icons';
+  src:
+    url('fonts/devdojo-icons.ttf?w5noa4') format('truetype'),
+    url('fonts/devdojo-icons.woff?w5noa4') format('woff'),
+    url('fonts/devdojo-icons.svg?w5noa4#devdojo-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'devdojo-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telegram .path1:before {
+  content: "\e900";
+  color: rgb(255, 255, 255);
+}
+.icon-telegram .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(26, 2, 51);
+}
+.icon-telegram .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(26, 2, 51);
+}
+.icon-twitch .path1:before {
+  content: "\e903";
+  color: rgb(254, 254, 254);
+}
+.icon-twitch .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(26, 2, 51);
+}
+.icon-twitch .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(48, 48, 48);
+}
+.icon-twitch .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(48, 48, 48);
+}
+.icon-youtube .path1:before {
+  content: "\e907";
+  color: rgb(26, 2, 51);
+}
+.icon-youtube .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
