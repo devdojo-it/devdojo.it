@@ -1,35 +1,107 @@
-* {
-  box-sizing: border-box;
+@import "./assets/fonts/devdojo-icons/style.css" layer(iconography);
+
+@layer reset {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    min-inline-size: 100vw;
+    min-block-size: 100vh;
+
+    overflow-x: hidden;
+  }
 }
 
-html,
+@layer typography {
+  :root {
+    --font-size--base: 1.6rem;
+    --line-height: 1.5;
+    --font-ratio: 1.125; /* major second */
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    --font-size: var(--font-size--base);
+
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) {
+    font-family: "RocknRoll One", serif;
+  }
+
+  :where(h1, h2, h3, h4, h5, h6, p) {
+    margin: 0;
+
+    font-size: var(--font-size);
+
+    + :where(h1, h2, h3, h4, h5, h6, p) {
+      margin-block-start: 1rem;
+    }
+  }
+
+  h1 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 6));
+  }
+
+  h2 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 5));
+  }
+
+  h3 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 4));
+  }
+
+  h4 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 3));
+  }
+
+  h5 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 2));
+  }
+
+  h6 {
+    --font-size: calc(var(--font-size--base) * var(--font-ratio));
+  }
+}
+
+@layer a11y {
+  .sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+  }
+
+  .sr-only-focusable:focus,
+  .sr-only-focusable:active {
+    clip: auto !important;
+    clip-path: none !important;
+    height: auto !important;
+    margin: auto !important;
+    overflow: visible !important;
+    width: auto !important;
+    white-space: normal !important;
+  }
+}
+
 body {
-  padding: 0;
-  border: 0;
-  margin: 0;
-
-  min-inline-size: 100vw;
-  min-block-size: 100vh;
-
-  overflow-x: hidden;
-}
-
-:root {
-  --font-size--base: 1.6rem;
-  --line-height: 1.5;
-  --font-ratio: 1.125; /* major second */
-}
-
-html {
-  font-size: 10px;
-}
-
-body {
-  --font-size: var(--font-size--base);
-
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-
   /* TEST GRADIENT HEIGHT TEST */
   /* block-size: 530rem; */
 
@@ -37,44 +109,6 @@ body {
 
   background: hsl(270, 85%, 31%);
   background: linear-gradient(180deg, hsl(270, 85%, 31%) 0%, hsl(272, 97%, 15%) 100%);
-}
-
-:where(h1, h2, h3, h4, h5, h6) {
-  font-family: "RocknRoll One", serif;
-}
-
-:where(h1, h2, h3, h4, h5, h6, p) {
-  margin: 0;
-
-  font-size: var(--font-size);
-
-  + :where(h1, h2, h3, h4, h5, h6, p) {
-    margin-block-start: 1rem;
-  }
-}
-
-h1 {
-  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 6));
-}
-
-h2 {
-  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 5));
-}
-
-h3 {
-  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 4));
-}
-
-h4 {
-  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 3));
-}
-
-h5 {
-  --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 2));
-}
-
-h6 {
-  --font-size: calc(var(--font-size--base) * var(--font-ratio));
 }
 
 a {
@@ -176,31 +210,9 @@ header {
 
 /* https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034 */
 
-.sr-only {
-  border: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-  clip-path: inset(50%) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  position: absolute !important;
-  width: 1px !important;
-  white-space: nowrap !important;
-}
-
-.sr-only-focusable:focus,
-.sr-only-focusable:active {
-  clip: auto !important;
-  clip-path: none !important;
-  height: auto !important;
-  margin: auto !important;
-  overflow: visible !important;
-  width: auto !important;
-  white-space: normal !important;
-}
-
-.logos-container {
+[logos] {
+  position: absolute;
+  inset: 3rem 3rem auto;
   display: flex;
   place-content: space-between;
   place-items: center;
@@ -221,11 +233,17 @@ header {
   );
 }
 
-button {
+:where(button, [button]) {
   border: 0;
   border-radius: 10px;
   font-size: 30px;
   line-height: 1.3;
+
+  text-decoration: none;
+
+  padding: 0.5rem;
+
+  background-color: #b99ed4;
 
   &[primary] {
     color: #fff;
@@ -239,4 +257,14 @@ button {
       background-color: hsl(325, 97%, 40%);
     }
   }
+}
+
+[social] {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  flex-flow: row nowrap;
+  gap: 1.5rem;
+
+  margin-block-start: 1rem;
 }
