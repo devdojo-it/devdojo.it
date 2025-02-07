@@ -1,5 +1,33 @@
 @import "./assets/fonts/devdojo-icons/style.css" layer(iconography);
 
+/* text color: #fff */
+
+/* normal text - Nunito Regular (400) 16px/24px */
+/* menu - Nunito Bold (700) 20px/27px */
+/* title h2 - RocknRoll One Regular (400) 70px/100px */
+/* title h3 - RocknRoll One Regular (400) 60px/70px */
+/* card-tag - Nunito Black (800) 25px/70px */
+/* card-title - Nunito Regular (400) 35px/48px */
+/* card-date - Nunito Bold (700) 20px/70px */
+/* card-text - Nunito Regular (400) 16px/24px */
+/* card-live-on - Nunito Black (800) 14px/20px */
+/* card-badge - Nunito ExtraBold (900) 10px/20px */
+/* video title - RocknRoll One Regular (400) 16px/20px */
+/* sensei name - RocknRoll One Regular (400) 20px/24px */
+/* sensei role - Nunito Regular (400) 16px/24px */
+/* footer titles - RocknRoll One Regular (400) 20px/24px */
+/* footer subtitle - Nunito Regular (400) 16px/24px */
+/* buttons - Nunito Black (800) 16px/20px */
+/* buttons color - #fff */
+
+/* buttons primary - #F90493 */
+/* buttons secondary - #fff/52% D9D9D9 */
+
+/* scrollbar background - #d9d9d9/60% */
+/* scrollbar thumb - #864FF6 */
+
+/* https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034 */
+
 @layer reset {
   * {
     box-sizing: border-box;
@@ -15,6 +43,19 @@
     min-block-size: 100vh;
 
     overflow-x: hidden;
+  }
+
+  a {
+    cursor: pointer;
+  }
+}
+
+@layer palette {
+  :root {
+    --dojo--color--purple-100: hsl(270, 39%, 73%);
+    --dojo--color--purple-200: hsl(271, 91%, 75%);
+    --dojo--color--purple-300: hsl(271, 91%, 45%);
+    --dojo--color--purple-400: hsl(271, 91%, 21%);
   }
 }
 
@@ -73,6 +114,12 @@
   h6 {
     --font-size: calc(var(--font-size--base) * var(--font-ratio));
   }
+
+  @media screen and (width >= 1200px) {
+    :root {
+      --font-size--base: 2rem;
+    }
+  }
 }
 
 @layer a11y {
@@ -101,128 +148,212 @@
   }
 }
 
-body {
-  /* TEST GRADIENT HEIGHT TEST */
-  /* block-size: 530rem; */
+@layer ui {
+  :where(button, [button]) {
+    border: 0;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 1.3;
 
-  color: #fff;
+    text-decoration: none;
 
-  background: hsl(270, 85%, 31%);
-  background: linear-gradient(180deg, hsl(270, 85%, 31%) 0%, hsl(272, 97%, 15%) 100%);
-}
+    padding: 0.5rem;
 
-a {
-  cursor: pointer;
-}
+    background-color: #b99ed4;
 
-header {
-  position: relative;
+    &[primary] {
+      color: #fff;
+      background-color: hsl(325, 97%, 50%);
 
-  inline-size: 100%;
-  aspect-ratio: 1920/576;
-
-  .logos-container {
-    position: absolute;
-    inset: 0 0 auto 0;
-
-    padding: 6.5rem 4.5rem 0;
-  }
-
-  > figure {
-    position: relative;
-
-    inline-size: 100%;
-    block-size: 57.6rem;
-
-    margin: 0;
-
-    background: transparent;
-    background: linear-gradient(180deg, transparent 0%, hsl(190, 58%, 74%) 100%);
-
-    img {
-      position: absolute;
-
-      &.pagoda {
-        inset: 26rem auto auto -35rem;
+      &:hover {
+        background-color: hsl(325, 97%, 45%);
       }
 
-      &.torii {
-        inset: 31rem 0 auto 0;
-        margin: auto;
-      }
-
-      &.sakura {
-        inset: 17rem -12rem auto auto;
-      }
-
-      &.moon {
-        inset: 24rem 0 auto 0;
-
-        inline-size: 27rem;
-        aspect-ratio: 1;
-        margin: auto;
-      }
-
-      &.fisherman {
-        inset: 65rem 0 auto 10rem;
+      &:active {
+        background-color: hsl(325, 97%, 40%);
       }
     }
   }
 
-  h2 {
-    width: 100%;
-    text-align: center;
-    margin-block-start: 18rem;
+  form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
   }
 }
 
-@media screen and (width >= 1200px) {
-  :root {
-    --font-size--base: 2rem;
+@layer layout {
+  body {
+    /* TEST GRADIENT HEIGHT TEST */
+    /* block-size: 530rem; */
+
+    color: #fff;
+
+    background: hsl(270, 85%, 31%);
+    background: linear-gradient(180deg, hsl(270, 85%, 31%) 0%, hsl(272, 97%, 15%) 100%);
+  }
+
+  @layer header {
+    header {
+      position: relative;
+
+      inline-size: 100%;
+      aspect-ratio: 1920/576;
+
+      .logos-container {
+        position: absolute;
+        inset: 0 0 auto 0;
+
+        padding: 6.5rem 4.5rem 0;
+      }
+
+      > figure {
+        position: relative;
+
+        inline-size: 100%;
+        block-size: 57.6rem;
+
+        margin: 0;
+
+        background: transparent;
+        background: linear-gradient(180deg, transparent 0%, hsl(190, 58%, 74%) 100%);
+
+        img {
+          position: absolute;
+
+          &.pagoda {
+            inset: 26rem auto auto -35rem;
+          }
+
+          &.torii {
+            inset: 31rem 0 auto 0;
+            margin: auto;
+          }
+
+          &.sakura {
+            inset: 17rem -12rem auto auto;
+          }
+
+          &.moon {
+            inset: 24rem 0 auto 0;
+
+            inline-size: 27rem;
+            aspect-ratio: 1;
+            margin: auto;
+          }
+
+          &.fisherman {
+            inset: 65rem 0 auto 10rem;
+          }
+        }
+      }
+
+      h2 {
+        width: 100%;
+        text-align: center;
+        margin-block-start: 18rem;
+      }
+    }
+
+    [logos] {
+      position: absolute;
+      inset: 3rem 3rem auto;
+      display: flex;
+      place-content: space-between;
+      place-items: center;
+    }
+  }
+
+  @layer main {
+    @layer partners {
+      [partners] {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 10rem;
+      }
+
+      [title] {
+        display: flex;
+        flex-flow: column nowrap;
+        place-content: start;
+        place-items: center;
+        gap: 1rem;
+
+        p {
+          max-inline-size: 75ch;
+          text-align: center;
+        }
+      }
+
+      [partners-container] {
+        display: flex;
+        flex-flow: row wrap;
+        place-content: center;
+        place-items: start;
+        gap: 3rem;
+
+        max-inline-size: 71vw;
+        margin: 0 auto;
+
+        a {
+          background-color: var(--dojo--color--purple-100);
+
+          inline-size: 20rem;
+          border-radius: 2rem;
+
+          img {
+            inline-size: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  @layer footer {
+    footer {
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 1rem;
+
+      place-content: center;
+      place-items: start;
+      
+      margin-block-start: 20rem;
+    }
+
+    [social] {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 2rem;
+
+      > div {
+        display: flex;
+        flex-flow: row nowrap;
+        place-content: center;
+        place-items: center;
+        gap: 1.5rem;
+      }
+    }
+
+    [contact-us] {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 2rem;
+    }
+
+    [newsletter] {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 2rem;
+    }
   }
 }
 
-/* text color: #fff */
-
-/* normal text - Nunito Regular (400) 16px/24px */
-/* menu - Nunito Bold (700) 20px/27px */
-/* title h2 - RocknRoll One Regular (400) 70px/100px */
-/* title h3 - RocknRoll One Regular (400) 60px/70px */
-/* card-tag - Nunito Black (800) 25px/70px */
-/* card-title - Nunito Regular (400) 35px/48px */
-/* card-date - Nunito Bold (700) 20px/70px */
-/* card-text - Nunito Regular (400) 16px/24px */
-/* card-live-on - Nunito Black (800) 14px/20px */
-/* card-badge - Nunito ExtraBold (900) 10px/20px */
-/* video title - RocknRoll One Regular (400) 16px/20px */
-/* sensei name - RocknRoll One Regular (400) 20px/24px */
-/* sensei role - Nunito Regular (400) 16px/24px */
-/* footer titles - RocknRoll One Regular (400) 20px/24px */
-/* footer subtitle - Nunito Regular (400) 16px/24px */
-/* buttons - Nunito Black (800) 16px/20px */
-/* buttons color - #fff */
-
-/* buttons primary - #F90493 */
-/* buttons secondary - #fff/52% D9D9D9 */
-
-/* scrollbar background - #d9d9d9/60% */
-/* scrollbar thumb - #864FF6 */
-
-/* https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034 */
-
-[logos] {
-  position: absolute;
-  inset: 3rem 3rem auto;
-  display: flex;
-  place-content: space-between;
-  place-items: center;
-}
-
-.background {
+/* .background {
   background: hsl(270, 85%, 31%);
   background: linear-gradient(180deg, hsl(270, 85%, 31%) 0%, hsl(272, 97%, 15%) 100%);
-}
-
+} */
+/* 
 .background-hero {
   background: transparent;
   background: linear-gradient(
@@ -231,40 +362,4 @@ header {
     rgba(150, 214, 227, 1) 47%,
     rgba(31, 167, 196, 1) 100%
   );
-}
-
-:where(button, [button]) {
-  border: 0;
-  border-radius: 10px;
-  font-size: 30px;
-  line-height: 1.3;
-
-  text-decoration: none;
-
-  padding: 0.5rem;
-
-  background-color: #b99ed4;
-
-  &[primary] {
-    color: #fff;
-    background-color: hsl(325, 97%, 50%);
-
-    &:hover {
-      background-color: hsl(325, 97%, 45%);
-    }
-
-    &:active {
-      background-color: hsl(325, 97%, 40%);
-    }
-  }
-}
-
-[social] {
-  display: flex;
-  place-content: center;
-  place-items: center;
-  flex-flow: row nowrap;
-  gap: 1.5rem;
-
-  margin-block-start: 1rem;
-}
+} */
