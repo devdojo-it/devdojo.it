@@ -1,0 +1,24 @@
+@layer reset {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    inline-size: 100vw;
+    min-block-size: 100vh;
+  }
+
+  html {
+    overscroll-behavior: none;
+  }
+
+  a {
+    cursor: pointer;
+  }
+}
+

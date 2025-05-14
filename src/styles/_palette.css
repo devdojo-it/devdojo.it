@@ -1,0 +1,9 @@
+@layer palette {
+  :root {
+    --dojo--color--purple-100: hsl(270, 39%, 73%);
+    --dojo--color--purple-200: hsl(271, 91%, 75%);
+    --dojo--color--purple-300: hsl(271, 91%, 45%);
+    --dojo--color--purple-400: hsl(271, 91%, 21%);
+  }
+}
+

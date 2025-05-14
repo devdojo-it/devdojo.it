@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'devdojo-icons';
-  src:
-    url('fonts/devdojo-icons.ttf?w5noa4') format('truetype'),
-    url('fonts/devdojo-icons.woff?w5noa4') format('woff'),
-    url('fonts/devdojo-icons.svg?w5noa4#devdojo-icons') format('svg');
+  font-family: "devdojo-icons";
+  src: url("fonts/devdojo-icons.ttf?yqu2zz") format("truetype"),
+    url("fonts/devdojo-icons.woff?yqu2zz") format("woff"),
+    url("fonts/devdojo-icons.svg?yqu2zz#devdojo-icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   display: flex;
   place-content: center;
   place-items: center;
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'devdojo-icons' !important;
+  font-family: "devdojo-icons" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -68,4 +68,72 @@
   content: "\e908";
   margin-left: -1em;
   color: rgb(255, 255, 255);
+}
+.icon-linkedin:before {
+  content: "\e909";
+  color: #1a0233;
+}
+.icon-buy-me-a-coffee .path1:before {
+  content: "\e90a";
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path3:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path4:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path5:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path6:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path7:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path8:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path9:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path10:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path11:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 221, 6);
+}
+.icon-buy-me-a-coffee .path12:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(1, 2, 2);
+}
+.icon-buy-me-a-coffee .path13:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(26, 2, 51);
 }

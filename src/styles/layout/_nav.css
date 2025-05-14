@@ -1,0 +1,10 @@
+@layer nav {
+  nav {
+    color: #fff;
+    background-color: #ffaed359;
+
+    padding: 2.8rem 3.6rem;
+    border-top-left-radius: 3.5rem;
+    border-bottom-left-radius: 3.5rem;
+  }
+}

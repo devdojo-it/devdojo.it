@@ -1,0 +1,63 @@
+@layer typography {
+  :root {
+    --font-size--base: 1.6rem;
+    --line-height: 1.5;
+    --font-ratio: 1.25;
+  }
+
+  html {
+    font-size: 0.625em;
+  }
+
+  body {
+    --font-size: var(--font-size--base);
+
+    font-family: "Nunito", sans-serif;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) {
+    font-family: "RocknRoll One", serif;
+  }
+
+  :where(h1, h2, h3, h4, h5, h6, p) {
+    margin: 0;
+
+    font-size: var(--font-size);
+
+    + :where(h1, h2, h3, h4, h5, h6, p) {
+      margin-block-start: 1rem;
+    }
+  }
+
+  h1 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 6));
+  }
+
+  h2 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 5));
+  }
+
+  h3 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 4));
+  }
+
+  h4 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 3));
+  }
+
+  h5 {
+    --font-size: calc(var(--font-size--base) * pow(var(--font-ratio), 2));
+  }
+
+  h6 {
+    --font-size: calc(var(--font-size--base) * var(--font-ratio));
+  }
+
+  @media screen and (width >= 1200px) {
+    :root {
+      --font-size--base: 2rem;
+    }
+  }
+}

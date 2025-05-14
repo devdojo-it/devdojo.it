@@ -1,0 +1,26 @@
+@layer header {
+  header {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    place-content: space-between;
+
+    aspect-ratio: 1920 / 740;
+    inline-size: 100%;
+
+    padding: 3rem 3rem 0;
+
+    h2 {
+      display: inline-flex;
+      margin-block-start: auto;
+    }
+  }
+
+  [logos] {
+    position: absolute;
+    inset: 3rem 3rem auto;
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+  }
+}
