@@ -1,0 +1,44 @@
+@layer slider {
+  slider {
+    display: flex;
+    padding-inline: 2rem;
+
+    stage {
+      display: flex;
+
+      width: 100%;
+
+      overflow-x: scroll;
+      overflow-y: none;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+      overscroll-behavior: none;
+
+      slides {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 3rem;
+
+        slide {
+          scroll-snap-align: start;
+        }
+
+        figure {
+          inline-size: 56rem;
+          aspect-ratio: 560/315;
+
+          border-radius: 2.5rem;
+          margin: 1rem 1rem 2.5rem;
+
+          youtube-embed {
+            border-radius: 2.5rem;
+          }
+
+          figcaption {
+            padding-inline: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}

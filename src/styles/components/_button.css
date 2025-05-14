@@ -1,0 +1,27 @@
+@layer button {
+  :where(button, [button]) {
+    border: 0;
+    border-radius: 2.5rem;
+    font-size: 3rem;
+    line-height: 1.3;
+
+    text-decoration: none;
+
+    padding: 0.5rem;
+
+    background-color: #b99ed4;
+
+    &[primary] {
+      color: #fff;
+      background-color: hsl(325, 97%, 50%);
+
+      &:hover {
+        background-color: hsl(325, 97%, 45%);
+      }
+
+      &:active {
+        background-color: hsl(325, 97%, 40%);
+      }
+    }
+  }
+}

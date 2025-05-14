@@ -9,26 +9,84 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=RocknRoll+One&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <header parisi>
-      <figure>
-        <img src="./assets/stars-background.svg" class="stars-background" alt="" />
-        <img src="./assets/moon.svg" class="moon" alt="" />
-        <img src="./assets/pagoda.svg" class="pagoda" alt="" />
-        <img src="./assets/fisherman.svg" class="fisherman" alt="" />
-        <img src="./assets/torii.svg" class="torii" alt="" />
-        <img src="./assets/sakura.png" class="sakura" alt="" />
-        <img src="./assets/sakura-background.svg" class="sakura-background" alt="" />
-      </figure>
+    <header>
       <section logos>
-        <a href="/" title="go to DevDojo Home">
-          <h1>
-            <!-- <span class="sr-only">DevDojo Home</span> -->
-            <img src="./assets/logo.svg" alt="DevDojo Logo" />
-          </h1>
-        </a>
+        <div>
+          <a href="/" title="go to DevDojo Home">
+            <h1>
+              <!-- <span class="sr-only">DevDojo Home</span> -->
+              <img src="./assets/logo.svg" alt="DevDojo Logo" />
+            </h1>
+          </a>
+          <section social>
+            <div>
+              <a
+                href="https://www.linkedin.com/company/dev-dojo-it"
+                button
+                target="_blank"
+                title="go to DevDojo Linkedin Page">
+                <i class="icon-linkedin"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/@devdojo_it"
+                button
+                target="_blank"
+                title="go to DevDojo YouTube Channel">
+                <i class="icon-youtube">
+                  <span class="path1"></span>
+                  <span class="path2"></span>
+                </i>
+              </a>
+              <a
+                href="http://twitch.tv/devdojo_it"
+                button
+                target="_blank"
+                title="go to DevDojo Twitch Channel">
+                <i class="icon-twitch">
+                  <span class="path1"></span>
+                  <span class="path2"></span>
+                  <span class="path3"></span>
+                  <span class="path4"></span>
+                </i>
+              </a>
+              <a
+                href="http://t.me/devdojo_it"
+                button
+                target="_blank"
+                title="go to DevDojo Telegram Channel">
+                <i class="icon-telegram">
+                  <span class="path1"></span>
+                  <span class="path2"></span>
+                  <span class="path3"></span>
+                </i>
+              </a>
+              <a
+                href="https://buymeacoffee.com/devdojo_it"
+                button
+                target="_blank"
+                title="go to DevDojo BuyMeACoffee page">
+                <i class="icon-buy-me-a-coffee">
+                  <span class="path1"></span>
+                  <span class="path2"></span>
+                  <span class="path3"></span>
+                  <span class="path4"></span>
+                  <span class="path5"></span>
+                  <span class="path6"></span>
+                  <span class="path7"></span>
+                  <span class="path8"></span>
+                  <span class="path9"></span>
+                  <span class="path10"></span>
+                  <span class="path11"></span>
+                  <span class="path12"></span>
+                  <span class="path13"></span>
+                </i>
+              </a>
+            </div>
+          </section>
+        </div>
         <a href="https://miraitraining.it" target="_blank" title="go to Mirai Training Website">
           <!-- <span class="sr-only">Mirai Training Website</span> -->
           <img src="./assets/powered-by-mirai.png" alt="Powered by Mirai Training" />
@@ -37,15 +95,9 @@
       <h2>La community tech dal gusto zen!</h2>
     </header>
     <main>
-      <section video-latest>
+      <section id="latest-video">
         <article>
-          <iframe
-            src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
+          <youtube-embed video-id="g6y-BAGDuQk"></youtube-embed>
           <section card>
             <badge>LIVE</badge>
             <hgroup>
@@ -71,7 +123,41 @@
           </section>
         </article>
       </section>
-      <section video-bold-opinions>
+      <section id="sensei">
+        <section title>
+          <h3>I nostri Sensei</h3>
+        </section>
+        <section sensei-container>
+          <article>
+            <figure>
+              <img src="./assets/sensei/simona.svg" alt="Simona Borgia" />
+            </figure>
+            <hgroup>
+              <h5>Simona Borgia</h5>
+              <p>Chaos Manager & ADHD Content Creator</p>
+            </hgroup>
+          </article>
+          <article>
+            <figure>
+              <img src="./assets/sensei/christian.svg" alt="Christian Nastasi" />
+            </figure>
+            <hgroup>
+              <h5>Christian Nastasi</h5>
+              <p>Technical Coach & Software Architecture Expert</p>
+            </hgroup>
+          </article>
+          <article>
+            <figure>
+              <img src="./assets/sensei/emiliano.svg" alt="Emiliano Pisu" />
+            </figure>
+            <hgroup>
+              <h5>Emiliano Pisu</h5>
+              <p>Accessibility Expert & Senior Design Engineer</p>
+            </hgroup>
+          </article>
+        </section>
+      </section>
+      <!-- <section video-category="bold-opinions">
         <section>
           <h3>Tech Bold Opinions</h3>
           <p>
@@ -83,59 +169,35 @@
         <slider>
           <stage>
             <slides>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>UX Design - Come non farsi odiare (troppo) dai developers</figcaption>
-              </figure>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>Personal Branding 101: Investi in te stesso</figcaption>
-              </figure>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>Prevenire (con il mentoring) è meglio che curare</figcaption>
-              </figure>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>Career Ladder</figcaption>
-              </figure>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="g6y-BAGDuQk"></youtube-embed>
+                  <figcaption>UX Design - Come non farsi odiare (troppo) dai developers</figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="g6y-BAGDuQk"></youtube-embed>
+                  <figcaption>Personal Branding 101: Investi in te stesso</figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="g6y-BAGDuQk"></youtube-embed>
+                  <figcaption>Prevenire (con il mentoring) è meglio che curare</figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="g6y-BAGDuQk"></youtube-embed>
+                  <figcaption>Career Ladder</figcaption>
+                </figure>
+              </slide>
             </slides>
           </stage>
         </slider>
       </section>
-      <section video-interviews>
+      <section video-category="interviews">
         <section>
           <h3>Le interviste del Dojo</h3>
           <p>
@@ -147,244 +209,216 @@
         <slider>
           <stage>
             <slides>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>UX Design - Come non farsi odiare (troppo) dai developers</figcaption>
-              </figure>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>Personal Branding 101: Investi in te stesso</figcaption>
-              </figure>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>Prevenire (con il mentoring) è meglio che curare</figcaption>
-              </figure>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="4-b-N4Wr3qU"></youtube-embed>
+                  <figcaption>
+                    Cristina Carrano - Dev vs Designer, diatriba anacronistica oppure ha ancora
+                    senso?
+                  </figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="ywf0d4CNoCQ"></youtube-embed>
+                  <figcaption>
+                    Enzo Lombardi - Tu vuò fa’ l’americano, un italiano nelle FAANG
+                  </figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="z0LHT3d0PwA"></youtube-embed>
+                  <figcaption>M71A - La tecnologia è femminile</figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="pZI2afVS61U"></youtube-embed>
+                  <figcaption>
+                    Davide Di Pumpo - Quittare una major, posizioni ambite ma per motivi sbagliati
+                  </figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="pZI2afVS61U"></youtube-embed>
+                  <figcaption>
+                    Andrea Confalonieri - Elogio alla pigrizia, la chiave di volta dell'evoluzione
+                    umana
+                  </figcaption>
+                </figure>
+              </slide>
             </slides>
           </stage>
         </slider>
       </section>
-      <section video-from-idea-to-product>
-        <section>
-          <h3>Dall'Idea al Prodotto</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis interdum ante.
-            In consectetur est sed molestie consectetur. Donec quis tristique nulla, quis fringilla
-            tortor.
-          </p>
-        </section>
-        <slider>
-          <stage>
-            <slides>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>UX Design - Come non farsi odiare (troppo) dai developers</figcaption>
-              </figure>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>Personal Branding 101: Investi in te stesso</figcaption>
-              </figure>
-            </slides>
-          </stage>
-        </slider>
-      </section>
-      <section sensei>
-        <section>
-          <h3>I Sensei</h3>
-          <p>Chi siamo e cosa facciamo!</p>
-        </section>
-        <section sensei-container>
-          <article>
-            <figure>
-              <img src="./assets/sensei/christian.svg" alt="Christian Nastasi" />
-            </figure>
-            <h4>Christian Nastasi</h4>
-            <p>Technical Coach & Software Architecture Expert</p>
-          </article>
-          <article>
-            <figure>
-              <img src="./assets/sensei/emiliano.svg" alt="Emiliano Pisu" />
-            </figure>
-            <h4>Emiliano Pisu</h4>
-            <p>Accessibility Expert & Senior Frontend Engineer</p>
-          </article>
-          <article>
-            <figure>
-              <img src="./assets/sensei/francesca.svg" alt="Beatrice Bellezza" />
-            </figure>
-            <h4>Beatrice Bellezza</h4>
-            <p>Design Coach & Social Media Manager & ADHD Expert</p>
-          </article>
-          <article>
-            <figure>
-              <img src="./assets/sensei/francesca.svg" alt="Francesca Mannarella" />
-            </figure>
-            <h4>Francesca Mannarella</h4>
-            <p>Design Coach & Senior UI/UX Designer</p>
-          </article>
-        </section>
-      </section>
-      <section video-workshop>
+      <section video-category="workshops">
         <section>
           <h3>I Workshop del Dojo</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis interdum ante.
-            In consectetur est sed molestie consectetur. Donec quis tristique nulla, quis fringilla
-            tortor.
-          </p>
+          <p>Workshop e altre idee simili, condivisione di conoscenza ed esperienze su Dev Dojo.</p>
         </section>
         <slider>
           <stage>
             <slides>
-              <figure>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/g6y-BAGDuQk?si=nHMftgbG5wbnsBqn"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe>
-                <figcaption>UX Design - Come non farsi odiare (troppo) dai developers</figcaption>
-              </figure>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="BDW6DRkYa0E"></youtube-embed>
+                  <figcaption>
+                    Dall'Idea al Prodotto - Viaggio nella mente di uno sviluppatore - Creiamo il
+                    sito del Dev Dojo
+                  </figcaption>
+                </figure>
+              </slide>
             </slides>
           </stage>
         </slider>
       </section>
-      <section partners>
+      <section video-category="talks">
+        <section>
+          <h3>I Talks del Dojo</h3>
+          <p>I Talks, fatti in diretta su Dev Dojo.</p>
+        </section>
+        <slider>
+          <stage>
+            <slides>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="bG4aO7OOvb8"></youtube-embed>
+                  <figcaption>
+                    Componenti input sotto steroidi! con Vue.js e Tailwind ft Filippo Donadoni
+                  </figcaption>
+                </figure>
+              </slide>
+              <slide>
+                <figure tabindex="0">
+                  <youtube-embed video-id="OwmDWb6pGGA"></youtube-embed>
+                  <figcaption>
+                    Strategy Pattern applicato con PHP, Behat e approccio BDD ft Filippo Donadoni
+                  </figcaption>
+                </figure>
+              </slide>
+            </slides>
+          </stage>
+        </slider>
+      </section> -->
+      <section id="partners">
         <section title>
-          <h3>I nostri Partners</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper lectus
-            ligula, a fermentum tellus laoreet eget. Maecenas nec tortor sit amet nisl eleifend
-            molestie.
-          </p>
+          <h3>I nostri Amici</h3>
         </section>
         <section partners-container>
           <a
-            href="http://#"
+            href="https://www.codemotion.com"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/codemotion.png" alt="{{PARTNER}}" />
+            title="Vai al sito di Codemotion">
+            <img src="./assets/partners/codemotion.png" alt="Codemotion" />
           </a>
           <a
-            href="http://#"
+            href="https://www.cometocode.it"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/come-to-code.png" alt="{{PARTNER}}" />
+            title="Vai al sito di Come To Code">
+            <img src="./assets/partners/come-to-code.png" alt="Come To Code" />
           </a>
           <a
-            href="http://#"
+            href="https://www.coderful.io"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/gdg-roma-citta.png" alt="{{PARTNER}}" />
+            title="Vai al sito di Coderful">
+            <img src="./assets/partners/coderful.png" alt="Coderful" />
           </a>
           <a
-            href="http://#"
+            href="https://www.grusp.org"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/grusp.png" alt="{{PARTNER}}" />
+            title="Vai al sito del GrUSP">
+            <img src="./assets/partners/grusp.png" alt="GrUSP" />
           </a>
           <a
-            href="http://#"
+            href="https://schroedinger-hat.org"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/la-locanda-del-tech.png" alt="{{PARTNER}}" />
+            title="Vai al sito di Schrödinger Hat">
+            <img src="./assets/partners/schroedinger-hat.png" alt="Schrödinger Hat" />
           </a>
           <a
-            href="http://#"
+            href="https://romajs.org"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/roma-js.png" alt="{{PARTNER}}" />
+            title="Vai al sito di RomaJS">
+            <img src="./assets/partners/roma-js.png" alt="RomaJS" />
           </a>
           <a
-            href="http://#"
+            href="https://lalocandadeltech.it"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/schroedinger-hat.png" alt="{{PARTNER}}" />
+            title="Vai al sito della Locanda del Tech">
+            <img src="./assets/partners/la-locanda-del-tech.png" alt="Locanda del Tech" />
           </a>
           <a
-            href="http://#"
+            href="https://gdg.community.dev/gdg-roma-citta/"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/the-red-code.png" alt="{{PARTNER}}" />
+            title="Vai al sito di GDG Roma Città">
+            <img src="./assets/partners/gdg-roma-citta.png" alt="GDG Roma Città" />
           </a>
           <a
-            href="http://#"
+            href="https://theredcode.it"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/tomorrowdevs.png" alt="{{PARTNER}}" />
+            title="Vai al sito di theRedCode">
+            <img src="./assets/partners/the-red-code.png" alt="theRedCode" />
           </a>
           <a
-            href="http://#"
+            href="https://www.tomorrowdevs.com"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/webeetle.png" alt="{{PARTNER}}" />
+            title="Vai al sito di Tomorrow Devs">
+            <img src="./assets/partners/tomorrowdevs.png" alt="Tomorrow Devs" />
           </a>
           <a
-            href="http://#"
+            href="https://devmy.it"
             target="_blank"
             rel="noopener noreferrer"
-            title="Go to {{PARTNER}} web site">
-            <img src="./assets/partners/welyk.png" alt="{{PARTNER}}" />
+            title="Vai al sito di DevMy">
+            <img src="./assets/partners/devmy.svg" alt="DevMy" />
+          </a>
+          <a
+            href="https://www.exeen.it"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Vai al sito di Exeen">
+            <img src="./assets/partners/exeen.png" alt="Exeen" />
+          </a>
+          <a
+            href="https://www.webeetle.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Vai al sito di WeBeetle">
+            <img src="./assets/partners/webeetle.png" alt="WeBeetle" />
+          </a>
+          <a
+            href="https://welyk.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Vai al sito di Welyk">
+            <img src="./assets/partners/welyk.png" alt="Welyk" />
           </a>
         </section>
       </section>
     </main>
     <footer>
       <section social>
-        <h5>DevDojo Community</h5>
+        <h5>Community</h5>
         <div>
+          <a
+            href="https://www.linkedin.com/company/dev-dojo-it"
+            button
+            target="_blank"
+            title="go to DevDojo Linkedin Page">
+            <i class="icon-linkedin"></i>
+          </a>
           <a
             href="https://www.youtube.com/@devdojo_it"
             button
@@ -418,35 +452,50 @@
               <span class="path3"></span>
             </i>
           </a>
+          <a
+            href="https://buymeacoffee.com/devdojo_it"
+            button
+            target="_blank"
+            title="go to DevDojo BuyMeACoffee page">
+            <i class="icon-buy-me-a-coffee">
+              <span class="path1"></span>
+              <span class="path2"></span>
+              <span class="path3"></span>
+              <span class="path4"></span>
+              <span class="path5"></span>
+              <span class="path6"></span>
+              <span class="path7"></span>
+              <span class="path8"></span>
+              <span class="path9"></span>
+              <span class="path10"></span>
+              <span class="path11"></span>
+              <span class="path12"></span>
+              <span class="path13"></span>
+            </i>
+          </a>
         </div>
       </section>
-      <section contact-us>
-        <h5>DevDojo Community</h5>
+      <!-- <section contact-us>
+        <h5>Contattaci</h5>
         <form>
-          <input name="email" type="email" aria-placeholder="e-mail" />
-          <textarea name="message" aria-placeholder="lasciaci un messaggio"></textarea>
+          <input name="email" type="email" placeholder="e-mail" />
+          <textarea name="message" placeholder="lasciaci un messaggio"></textarea>
           <button primary>INVIA</button>
         </form>
-      </section>
-      <section newsletter>
-        <h5>Iscriviti alla newsletter</h5>
-        <p>Entra a far parte della nostra community per ricevere aggiornamenti</p>
-        <form>
-          <input name="email-newsletter" type="email" aria-placeholder="e-mail" />
-          <button primary>Iscriviti</button>
-        </form>
-      </section>
+      </section> -->
     </footer>
-    <script type="module" src="./index.ts"></script>
+    <nav></nav>
+    <script type="module" src="./scripts/index.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLLRFZLXZB"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
+
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
 
+      gtag("js", new Date());
       gtag("config", "G-YLLRFZLXZB");
     </script>
   </body>

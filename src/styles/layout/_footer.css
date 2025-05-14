@@ -1,0 +1,61 @@
+@layer footer {
+  footer {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15rem;
+
+    place-content: center;
+    place-items: start;
+
+    padding-block: 10rem;
+
+    > img {
+      position: absolute;
+      inset: auto 0 -3rem auto;
+
+      inline-size: 125vw;
+      aspect-ratio: 2135 / 290;
+      margin: 0 auto;
+      z-index: -1;
+    }
+  }
+
+  [social] {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+
+    text-align: center;
+
+    > div {
+      display: flex;
+      flex-flow: row nowrap;
+      place-content: center;
+      place-items: center;
+      gap: 1.5rem;
+    }
+
+    a[button] {
+      font-size: 2.5rem;
+      border-radius: 1rem;
+      width: 4rem;
+      aspect-ratio: 1;
+      display: inline-flex;
+      place-content: center;
+      place-items: center;
+    }
+  }
+
+  [contact-us] {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+  }
+
+  [newsletter] {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+  }
+}
