@@ -4,7 +4,7 @@
     flex-flow: column nowrap;
     gap: 10rem;
 
-    padding: 0 10vw;
+    padding: 0 15vw;
   }
 
   @layer latest-video {
