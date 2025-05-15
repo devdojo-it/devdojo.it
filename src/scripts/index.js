@@ -9,12 +9,21 @@ addEventListener("DOMContentLoaded", async () => {
 
   const partnersContainer = document.querySelector("#partners");
 
-  console.log(playlists);
+  const nav = document.querySelector("header + nav");
+
+  const partnersLink = nav.querySelector('a[href="#partners"]');
+
+  let playlistsLinksHTML = "";
+  let playlistsHTML = "";
 
   for (const playlist of playlists) {
     const videos = await youTubeAPI.listPlaylistVideosDetailed(playlist.id);
 
-    const playlistTemplateHTML = `
+    playlistsLinksHTML += `
+      <a href="#playlist-${playlist.id}">${playlist.title}</a>
+    `;
+
+    playlistsHTML += `
       <section id="playlist-${playlist.id}" video-category="${playlist.title}">
         <section>
           <h3>${playlist.title}</h3>
@@ -42,9 +51,12 @@ addEventListener("DOMContentLoaded", async () => {
         </slider>
       </section>
     `;
-
-    partnersContainer.insertAdjacentHTML("beforebegin", playlistTemplateHTML);
   }
+
+  partnersLink.insertAdjacentHTML("beforebegin", playlistsLinksHTML);
+  partnersContainer.insertAdjacentHTML("beforebegin", playlistsHTML);
+
+  nav.style.setProperty("--nav-opacity", "1");
 
   console.log(playlists);
 });

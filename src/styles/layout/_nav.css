@@ -1,10 +1,41 @@
 @layer nav {
+  @property --nav-link-translate {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 0;
+  }
+
   nav {
+    --nav-opacity: 0;
+
+    position: fixed;
+    inset: 20rem 0 auto auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    place-content: start;
+    place-items: end;
+
     color: #fff;
     background-color: #ffaed359;
 
     padding: 2.8rem 3.6rem;
     border-top-left-radius: 3.5rem;
     border-bottom-left-radius: 3.5rem;
+
+    opacity: var(--nav-opacity);
+    transition: opacity 250ms linear;
+
+    a {
+      font-family: "Nunito";
+      color: #fff;
+      text-decoration: none;
+      transform: translateX(0);
+      transition: transform 200ms linear;
+
+      &:hover {
+        transform: translateX(-.5rem);
+      }
+    }
   }
 }

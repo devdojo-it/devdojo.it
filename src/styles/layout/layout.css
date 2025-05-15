@@ -1,5 +1,6 @@
 @import "./_header.css" layer(layout);
 @import "./_main.css" layer(layout);
+@import "./_nav.css" layer(layout);
 @import "./_sections.css" layer(layout);
 @import "./_footer.css" layer(layout);
 
@@ -10,6 +11,8 @@
   }
 
   body {
+    min-height: 200vh;
+
     color: #fff;
 
     background-image: url("../../assets/header-background.svg"),
