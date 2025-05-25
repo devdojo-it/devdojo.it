@@ -1,0 +1,66 @@
+@layer partners {
+  [id="partners"] {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center;
+    place-items: start;
+    gap: 3rem;
+
+    background-image: url("../../assets/partners-background-left.svg"),
+      url("../../assets/partners-background-right.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left top, right bottom;
+
+    > img {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+
+      inline-size: 80vw;
+      aspect-ratio: 1755 / 835;
+      margin: 0;
+    }
+
+    [title] {
+      display: flex;
+      flex-flow: column nowrap;
+      place-content: center;
+      place-items: center;
+      gap: 1rem;
+
+      p {
+        max-inline-size: 75ch;
+        text-align: center;
+      }
+    }
+  }
+
+  [partners-container] {
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center;
+    place-items: start;
+    gap: 3rem;
+
+    max-inline-size: 70vw;
+    margin: 0 auto;
+
+    a {
+      display: inline-flex;
+      place-content: center;
+      place-items: center;
+
+      background-color: var(--dojo--color--purple-100);
+
+      inline-size: 20rem;
+      aspect-ratio: 20 / 12;
+      border-radius: 2rem;
+
+      img {
+        inline-size: 80%;
+      }
+    }
+  }
+}

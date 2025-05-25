@@ -18,7 +18,9 @@
   }
 
   a {
+    display: inline-flex;
+    border-radius: 0.5rem;
+
     cursor: pointer;
   }
 }
-

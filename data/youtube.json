@@ -1,0 +1,970 @@
+{
+  "latest": {
+    "id": "ZTWLhFAVXAI",
+    "url": "https://www.youtube.com/watch?v=ZTWLhFAVXAI",
+    "title": "Speciale Working Software 2025 con Luca Giovenzana e Ferdinando Santacroce",
+    "description": "Unisciti a noi per un’intervista esclusiva con Luca Giovenzana (CTO) e Ferdinando Santacroce (XP Coach), due protagonisti di spicco del panorama agile italiano, in occasione della conferenza Working Software 2025.\n\nIn questo speciale, esploreremo i temi più caldi della conferenza, dalle ultime innovazioni nel mondo del software craftsmanship alle sfide quotidiane di chi vive e lavora secondo i principi agili. Condivideremo insight unici su:\n • Come l’agilità si evolve nel 2025 per affrontare le richieste di un settore in continua trasformazione.\n • L’importanza dell’Extreme Programming (XP) come strumento per garantire qualità e valore nel prodotto software.\n • Il ruolo strategico della leadership tecnica nell’abilitare team di successo e nel promuovere una cultura orientata al miglioramento continuo.\n\nPreparatevi a una conversazione ricca di spunti, storie ed esempi pratici, moderata dal Dev Dojo, che metterà in luce il futuro del software development.\n\nNon perdete l’occasione di scoprire come questi esperti stanno plasmando il modo di lavorare e pensare il software oggi e domani!",
+    "viewCount": 65,
+    "likeCount": 3,
+    "commentCount": 0,
+    "publishedAt": "2025-05-07T04:15:59Z"
+  },
+  "playlists": [
+    {
+      "id": "PLM5s0-jaz0crtdfYDstlsVvSj1YaLkkpS",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0crtdfYDstlsVvSj1YaLkkpS",
+      "title": "Gli Speciali del Dojo",
+      "description": "Dall'organizzazione al backstage, il Dojo che racconta e promuove gli eventi tech grazie alla presenza di organizzatori, MC e speakers.",
+      "itemCount": 7,
+      "kind": "youtube#playlist",
+      "etag": "6cK-qbhPQxXPxTHNO6M6_EAeV0o",
+      "snippet": {
+        "publishedAt": "2025-05-25T09:26:28.565416Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "Gli Speciali del Dojo",
+        "description": "Dall'organizzazione al backstage, il Dojo che racconta e promuove gli eventi tech grazie alla presenza di organizzatori, MC e speakers.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZTWLhFAVXAI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZTWLhFAVXAI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZTWLhFAVXAI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZTWLhFAVXAI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZTWLhFAVXAI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "Gli Speciali del Dojo",
+          "description": "Dall'organizzazione al backstage, il Dojo che racconta e promuove gli eventi tech grazie alla presenza di organizzatori, MC e speakers."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 7
+      },
+      "videos": [
+        {
+          "id": "ZTWLhFAVXAI",
+          "url": "https://www.youtube.com/watch?v=ZTWLhFAVXAI",
+          "title": "Speciale Working Software 2025 con Luca Giovenzana e Ferdinando Santacroce",
+          "description": "Unisciti a noi per un’intervista esclusiva con Luca Giovenzana (CTO) e Ferdinando Santacroce (XP Coach), due protagonisti di spicco del panorama agile italiano, in occasione della conferenza Working Software 2025.\n\nIn questo speciale, esploreremo i temi più caldi della conferenza, dalle ultime innovazioni nel mondo del software craftsmanship alle sfide quotidiane di chi vive e lavora secondo i principi agili. Condivideremo insight unici su:\n • Come l’agilità si evolve nel 2025 per affrontare le richieste di un settore in continua trasformazione.\n • L’importanza dell’Extreme Programming (XP) come strumento per garantire qualità e valore nel prodotto software.\n • Il ruolo strategico della leadership tecnica nell’abilitare team di successo e nel promuovere una cultura orientata al miglioramento continuo.\n\nPreparatevi a una conversazione ricca di spunti, storie ed esempi pratici, moderata dal Dev Dojo, che metterà in luce il futuro del software development.\n\nNon perdete l’occasione di scoprire come questi esperti stanno plasmando il modo di lavorare e pensare il software oggi e domani!",
+          "viewCount": 65,
+          "likeCount": 3,
+          "commentCount": 0,
+          "publishedAt": "2025-05-07T04:15:59Z"
+        },
+        {
+          "id": "wVxZ0V9FgRI",
+          "url": "https://www.youtube.com/watch?v=wVxZ0V9FgRI",
+          "title": "European Accessibility Act - Cosa succederà dopo il 28 Giugno?",
+          "description": "Ti piace il progetto Dev Dojo? Sostienici: https://buymeacoffee.com/devdojo_it\nIl workshop: https://www.eventbrite.it/e/biglietti-accessibility-workshop-1262924113019\n\nC'è un tema che, a noi del Dojo, sta particolarmente a cuore: l'accessibilità. Ecco perché abbiamo pensato di fare un webinar gratuito che vi introdurrà a questo tema. Questo appuntamento precederà il nostro workshop, pensato per coloro che vogliono comprendere meglio il futuro della progettazione accessibile, specialmente in vista dell'entrata in vigore dell'European Accessibility Act, il 28 giugno.\n\nIl webinar non sarà di natura tecnica ed è aperto a tutti, inclusi CEO, CTO e Technical Leaders. Durante l'evento scoprirete perché l'accessibilità non riguarda solo le persone con disabilità, ma tocca tanti aspetti della nostra vita quotidiana. Comprenderete come un sito non accessibile possa escludere fino al 20% dei potenziali clienti e come etica e business possano andare di pari passo, generando valore per tutti.\n\nNon perdete questa occasione per approfondire un tema cruciale e per prepararvi al workshop che seguirà. Unitevi a noi!\n\n#EuropeanAccessibilityAct #accessibility #developers #softwaredevelopment #webinar #accessibilità #devdojo #devdojo_it #devdojoacademy #inclusionedigitale #designinclusivo #inclusività",
+          "viewCount": 77,
+          "likeCount": 6,
+          "commentCount": 0,
+          "publishedAt": "2025-04-04T03:00:20Z"
+        },
+        {
+          "id": "oskjrOQXwRY",
+          "url": "https://www.youtube.com/watch?v=oskjrOQXwRY",
+          "title": "Speciale CSS Day 2025 con Valeria Salis ed Emiliano Pisu",
+          "description": "Siete appassionati di Web Design? di Responsive Design? di Accessibilità? Perfetto... questo Speciale cssday del GrUSP sarà un evento imperdibile che celebra l’innovazione e la creatività nel mondo del CSS e del design digitale!\n\nCosa vi aspetta?\nValeria Salis – Ospite d’Eccellenza\nRinomata per il suo talento e la sua esperienza nel web design, la sua sensibilità ai temi dell'accessibilità e del green software. Condividerà con noi i segreti dietro le sue creazioni di successo. Sarà l’occasione per apprendere nuove tecniche, scoprire le ultime novità del settore e lasciarsi ispirare da una vera leader nel campo.\n\nEmiliano Pisu – In una veste diversa, passando da intervistatore a intervistato!\nVerrà intervistato per offrirci una prospettiva personale sul suo percorso professionale. Scoprirai le sfide affrontate, le ispirazioni e le innovazioni che hanno segnato il suo cammino nel design digitale.\n\nIl cssday non è solo un evento, ma un vero e proprio punto d’incontro per chi desidera crescere professionalmente, scoprire nuovi strumenti e rimanere aggiornato sulle evoluzioni del settore. Che tu sia una persona esperta o alle prime armi, questa serata ti offrirà spunti preziosi per progetti futuri e per dare una marcia in più alla tua creatività.\n\nLink alla Live su YouTube ed al nostro canale Twitch nei commenti.\n\nTi aspettiamo il 18 marzo alle 18.30!\n\nSe ti piace questo contenuto e se vuoi supportare il Dojo, offrici un caffè:\nhttps://buymeacoffee.com/devdojo_it\n\n#cssday2025 #GrUSP #DevDojoIT #WebDesign #ResponsiveDesign\n#TeamValeriaSalis #YouDontMessWithCSS\n#AnAwesomeCSSLinkADay #CSS #Accessibility",
+          "viewCount": 66,
+          "likeCount": 1,
+          "commentCount": 0,
+          "publishedAt": "2025-03-19T06:35:39Z"
+        },
+        {
+          "id": "g8m4n0cwKw4",
+          "url": "https://www.youtube.com/watch?v=g8m4n0cwKw4",
+          "title": "Alessandro Manno, Eugenio Pombi, Michael Murabito - Speciale DX DAY",
+          "description": "Thanks for joining our exclusive live broadcast. Feel free to share your questions and interact with other participants in the chat.",
+          "viewCount": 149,
+          "likeCount": 8,
+          "commentCount": 0,
+          "publishedAt": "2025-02-27T05:56:13Z"
+        },
+        {
+          "id": "cFVfofiSkf4",
+          "url": "https://www.youtube.com/watch?v=cFVfofiSkf4",
+          "title": "Speciale Coderful 2025 con Francesco Sciuti",
+          "description": "Preparati a un viaggio dietro le quinte di Coderful, la conferenza tech che sta facendo parlare di sé! In questo speciale, Francesco Sciuti ci svela tutti i segreti, le sfide e le passioni che si celano dietro l'organizzazione di un evento di successo.\n\nNon perderti:\n\n0:00 Introduzione e presentazione dei co-host.\n2:00 L'intervista esclusiva con Francesco Sciuti, il cuore pulsante di Coderful.\n5:00 Le difficoltà incontrate e la storia avvincente di come è nata Coderful.\n13:40 I tempi di organizzazione e l'introduzione dei workshop.\n16:50 L'idea di portare una conferenza di livello nel sud Italia: la nascita di Coderful.\n22:00 La scelta strategica della single track e i suoi vantaggi.\n27:50 Come il post-pandemia ha cambiato le carte in tavola per gli eventi.\n35:00 Le sfide concrete nell'organizzare una conferenza di successo.\n45:50 L'importanza di un networking efficace e dell'esperienza degli speaker.\n52:00 La cura maniacale nei dettagli per rendere Coderful un'esperienza unica.\n1:00:00 I KPI per misurare il successo dell'evento e le sfide dei workshop.\n1:01:40 Chiusura e ringraziamenti.\n\nScopri come un evento può trasformarsi in un'esperienza indimenticabile e lasciati ispirare dalla passione e dalla determinazione di Francesco e del suo team. Non mancare, iscriviti al canale e preparati a vivere Coderful a 360 gradi!\n\nTag:\n#coderful • #conferenze • #eventitech • #organizzazioneeventi • #francescosciuti • #communitytech • #networking • #sviluppatori • #coding • #tech • #innovazione • #suditalia • #workshop • #singletrack • #devdojoit • #postpandemia • #remotework",
+          "viewCount": 160,
+          "likeCount": 13,
+          "commentCount": 1,
+          "publishedAt": "2025-01-09T06:45:07Z"
+        },
+        {
+          "id": "JR37Yh6dfKk",
+          "url": "https://www.youtube.com/watch?v=JR37Yh6dfKk",
+          "title": "Speciale Product Management Day 2024",
+          "description": "In occasione del Product Management Day, vi presentiamo un episodio unico dedicato al mondo del product management. Insieme a un gruppo di ospiti esperti ed esperte, affronteremo alcune delle questioni più attuali e stimolanti del settore: esploreremo come l’intelligenza artificiale sta trasformando il ruolo di chi lavora nel product management, l’importanza di una lineup equilibrata tra donne e uomini per promuovere la gender equality, e il ruolo centrale dell’utente nella costruzione di prodotti attraverso un approccio user-centered.\n\nNon mancherà un focus sui temi della sostenibilità, con riflessioni su come il product management possa contribuire a un futuro più green, applicando principi sostenibili al design e allo sviluppo dei prodotti. Che tu stia intraprendendo un percorso nel product management, ti occupi di sviluppo, o sia semplicemente curios* di scoprire di più sul mondo dei prodotti digitali, questo episodio ti offrirà nuove prospettive su un ambito in costante evoluzione.\n\n📅 Quando?\n🗓 Data: 30 Ottobre 2024\n⏰ Ora: 18:00\n📡 Dove seguirci?: YouTube / Twitch\n\nUnisciti a noi per una conversazione tra professionisti, dove l’innovazione incontra la sostenibilità e l’inclusività!\n\n#ProductManagementDay #ProductManagement #AI #Sostenibilità #UserCentered #GenderEquality #podcast #devdojo #devdojo_it",
+          "viewCount": 70,
+          "likeCount": 5,
+          "commentCount": 0,
+          "publishedAt": "2024-10-31T06:26:41Z"
+        },
+        {
+          "id": "nA33pepJQKw",
+          "url": "https://www.youtube.com/watch?v=nA33pepJQKw",
+          "title": "Speciale Laravel Day 2024, incontriamo gli speaker e gli MC",
+          "description": "Preparatevi a un episodio tutto speciale, dove non parleremo solo di codice, ma anche di chi c'è dietro la tastiera! Abbiamo riunito un gruppo di ospiti d’eccezione, pronti a condividere le loro esperienze su PHP, Laravel e le sfide del mondo tecnologico in generale. Ma attenzione: non ci limiteremo a discutere di framework e architetture! Vogliamo andare oltre la facciata pubblica degli speaker e scoprire chi sono veramente. Cosa li ispira? Come sono arrivati a questo punto della loro carriera? E soprattutto, cosa fanno quando non stanno scrivendo codice?\n\nSarà un mix di approfondimenti tecnici, aneddoti personali e risate, dove ogni ospite mostrerà il suo lato più umano. Se sei curioso di sapere come si bilanciano tra la vita da sviluppatori e il resto del mondo, questo è l’episodio che fa per te. Che tu sia un fan sfegatato di PHP, un appassionato di Laravel, o semplicemente ti interessi di tecnologia, troverai pane per i tuoi denti... e forse anche qualche spunto per la tua carriera!\n\n📅 Quando?\n🗓 Data: 29 Ottobre 2024\n⏰ Ora: 16:00\n📡 Dove seguirci?: YouTube / Twitch\n\nUnisciti a noi per una conversazione fuori dagli schemi, dove la tecnologia incontra le persone che la rendono possibile!\n\n#PHP #Laravel #tecnologia #podcast #sviluppoweb #techlife",
+          "viewCount": 66,
+          "likeCount": 2,
+          "commentCount": 0,
+          "publishedAt": "2024-10-30T04:08:54Z"
+        }
+      ]
+    },
+    {
+      "id": "PLM5s0-jaz0croHcU0Nn3WrB6SLEztOJCD",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0croHcU0Nn3WrB6SLEztOJCD",
+      "title": "Le Interviste del Dojo",
+      "description": "Interviste sincere, senza filtri, a professionisti e amici del mondo tech: developers, designers, architects, managers, mentors e creators, che raccontano e condividono le loro esperienze. Un viaggio attraverso esperienze concrete e punti di vista personali.",
+      "itemCount": 20,
+      "kind": "youtube#playlist",
+      "etag": "tyt17SHKDppXjErsQJUAtkakJbo",
+      "snippet": {
+        "publishedAt": "2024-09-09T17:24:20.624907Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "Le Interviste del Dojo",
+        "description": "Interviste sincere, senza filtri, a professionisti e amici del mondo tech: developers, designers, architects, managers, mentors e creators, che raccontano e condividono le loro esperienze. Un viaggio attraverso esperienze concrete e punti di vista personali.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4-b-N4Wr3qU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4-b-N4Wr3qU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4-b-N4Wr3qU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4-b-N4Wr3qU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4-b-N4Wr3qU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "Le Interviste del Dojo",
+          "description": "Interviste sincere, senza filtri, a professionisti e amici del mondo tech: developers, designers, architects, managers, mentors e creators, che raccontano e condividono le loro esperienze. Un viaggio attraverso esperienze concrete e punti di vista personali."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 20
+      },
+      "videos": [
+        {
+          "id": "4-b-N4Wr3qU",
+          "url": "https://www.youtube.com/watch?v=4-b-N4Wr3qU",
+          "title": "Cristina Carrano - Dev vs Designer: Diatriba anacronistica oppure ha ancora senso?",
+          "description": "Il rapporto tra sviluppatori e designer è spesso oggetto di dibattiti e, a volte, di conflitti. Ma questa diatriba ha ancora senso nel contesto lavorativo moderno? O è semplicemente una narrativa superata?\n\nIn questo streaming affrontiamo la questione partendo dal post di Cristina su LinkedIn, che ha suscitato un certo dibattito. Durante la diretta, Cristina ci parlerà del contesto che ha dato vita al suo post e delle esperienze personali che l’hanno portata a condividere le sue riflessioni.\n\nDiscutendo delle dinamiche potenzialmente tossiche che possono nascere tra sviluppatori e designer, ma anche tra team diversi all’interno di un’organizzazione. Cristina condividerà esempi concreti e parleremo del ruolo che le agenzie e i processi interni giocano nel perpetuare (o risolvere) queste tensioni, come quando le stime vengono fatte senza coinvolgere gli sviluppatori.\n\nEsploreremo poi la storia dietro questa presunta “rivalità”, chiedendoci da dove nasca realmente e se non sia arrivato il momento di lasciarcela alle spalle per costruire un approccio più collaborativo e sinergico.\n\nSarà una discussione aperta, senza filtri, in cui cercheremo di capire non solo i problemi, ma anche le possibili soluzioni.\n\n📢 Partecipa anche tu!\nSeguici in diretta e unisciti alla conversazione. Condividi il tuo punto di vista, fai domande e arricchisci il dibattito con la tua esperienza!",
+          "viewCount": 99,
+          "likeCount": 8,
+          "commentCount": 0,
+          "publishedAt": "2025-05-01T04:17:22Z"
+        },
+        {
+          "id": "ywf0d4CNoCQ",
+          "url": "https://www.youtube.com/watch?v=ywf0d4CNoCQ",
+          "title": "Enzo Lombardi - Tu vuò fa’ l’americano: un italiano nelle FAANG",
+          "description": "Ti piace il progetto Dev Dojo? Sostienici: https://buymeacoffee.com/devdojo_it\n\n\"Tu vuò fa’ l’americano – Un italiano nelle FAANG\" non è solo un titolo ironico, ma anche il punto di partenza per una conversazione autentica con Enzo Lombardi, architetto del software con esperienze in aziende come Microsoft e Google\nIn questo episodio Enzo ci racconta il suo percorso da studente italiano a professionista nelle Big Tech americane, condividendo competenze, mindset e aneddoti utili a chi sogna una carriera internazionale nel mondo dello sviluppo.\n\nParleremo di:\n- Skill richieste per entrare in aziende come Google o Microsoft\n- Cultura aziendale americana tra performance, collaborazione e un pizzico di leggerezza\n- Il viaggio professionale e formativo di Enzo, tra scelte coraggiose e occasioni colte al volo\n- Il valore della sperimentazione, anche quando i progetti finiscono nel famoso \"Cimitero delle Idee\"\n- Il colloquio americano, tra aspettative, domande fuori dagli schemi e l’importanza di saper raccontare sé stessi\n- Innovazione e sperimentazione nelle aziende tech\n\nUna chiacchierata ispirante e piena di spunti concreti, che smonta miti e racconta la realtà del lavoro nelle FAANG con uno sguardo onesto e pratico.\n\nChe tu voglia “fare l’americano” o solo capire meglio come si lavora nelle grandi aziende tech, questo episodio fa per te.",
+          "viewCount": 192,
+          "likeCount": 9,
+          "commentCount": 2,
+          "publishedAt": "2025-04-11T12:57:30Z"
+        },
+        {
+          "id": "uTSAXAloB1A",
+          "url": "https://www.youtube.com/watch?v=uTSAXAloB1A",
+          "title": "Tommaso Allevi - SeqFlow: Come ti costruisco  un framework da zero",
+          "description": "Nel panorama dello sviluppo software, emergono strumenti che ridefiniscono il modo in cui scriviamo codice. SeqFlow è uno di questi: un framework pensato per semplificare la gestione del flusso asincrono, combinando efficienza e chiarezza sintattica.\n\nNe parliamo con Tommaso Allevi, il suo creatore, per capire:\n🔹 Come è nato SeqFlow e quale problema cerca di risolvere.\n🔹 Le scelte tecniche dietro il framework e il suo approccio all'asincronia.\n🔹 Le prospettive future per SeqFlow e per la programmazione reattiva.\n\nUn’intervista per chi vuole approfondire l’evoluzione degli strumenti di sviluppo e scoprire il punto di vista di un talento emergente.\n\n#ComputerScience #SeqFlow #AsyncProgramming #SoftwareDevelopment #TommasoAllevi",
+          "viewCount": 122,
+          "likeCount": 8,
+          "commentCount": 0,
+          "publishedAt": "2025-03-20T05:28:53Z"
+        },
+        {
+          "id": "mWdlxctpGBo",
+          "url": "https://www.youtube.com/watch?v=mWdlxctpGBo",
+          "title": "Gerson Enriquez - La terza porta: Viaggio alla scoperta del career hacking",
+          "description": "Scopri come reinventare la tua carriera con Gerson Enriquez, tecniche e consigli per il career hacking, intitolato \"La Terza Porta\", ispirato al celebre romanzo di Alex Banayan, che racconta il viaggio alla scoperta dell’arte di farcela.\n\nCosa aspettarsi:\nL’esperienza di Gerson consulente con un solido background da senior, che ha recentemente lasciato la sua azienda per abbracciare il mondo freelance.\n\nStrategie e consigli pratici per rompere gli schemi e creare nuove opportunità professionali.\n\nUn approfondimento sul career hacking, l’arte di sfruttare le proprie competenze e passioni per costruire un percorso di successo.\n\nNon perdere questa occasione per ascoltare idee innovative e trarre ispirazione per la tua evoluzione professionale!\n\nLink al romanzo: https://www.amazon.it/terza-porta-Alex-Banayan/dp/8861053963\n\n☕️ Se ti piace questo, offrici un caffè: https://buymeacoffee.com/devdojo_it",
+          "viewCount": 65,
+          "likeCount": 3,
+          "commentCount": 0,
+          "publishedAt": "2025-03-13T05:29:37Z"
+        },
+        {
+          "id": "z0LHT3d0PwA",
+          "url": "https://www.youtube.com/watch?v=z0LHT3d0PwA",
+          "title": "Manifesto #M71A - La tecnologia è femminile",
+          "description": "☕️ Volete supportare il Dev Dojo? Offriteci un caffè: https://buymeacoffee.com/devdojo_it\n\nChapters\n00:00 Introduzione al Manifesto Italiano per l'Uguaglianza\n03:32 Il Manifesto: Contenuti e Obiettivi\n04:56 Le Ospiti e le Loro Storie Professionali\n07:05 Disuguaglianze nel Settore Tecnologico\n09:47 Statistiche e Impatto della Discriminazione\n12:23 Le 50 Sfumature di Discriminazione\n15:28 Cultura e Pregiudizi Fin dall'Infanzia\n18:08 Ruolo dei Modelli e delle Figure Femminili\n21:10 Conclusioni e Prospettive Future\n28:04 Risorse e Dati sulle Laureate in Ingegneria\n30:49 Il Gender Gap e le Percentuali di Donne nel Settore Tecnologico\n33:04 Le Cause del Gender Pay Gap\n37:00 Meritocrazia e Opportunità di Carriera\n39:42 Il Soffitto di Cristallo e le Barriere Invisibili\n42:45 Meccanismi Inconsci e Rappresentazione Femminile\n46:50 Inclusività e Vantaggi per le Aziende\n48:04 Come Partecipare al Movimento per le Donne nella Tecnologia\n52:06 Il Gioco dell'Hack e l'Impatto delle Discriminazioni\n55:49 Conclusioni e Invito all'Azione\n\n🎉 In occasione dell'8 Marzo 2025 Festa della Donna, siamo orgogliosissimi di poter rilasciare questa specialissima intervista con il movimento M71A 🎉\n\nIl Dev Dojo si confronta con Elisa Migliavacca, Elisabetta Delponte e Maria Pina Di Cataldo (rigorosamente seguendo l'ordine visibile nella locandina da sx a dx) in merito al \"Manifesto Italiano per l'Uguaglianza delle Donne e delle Ragazze nella Tecnologia\" o più brevemente nel suo numeronimo \"M71A\".\n\nCome dicono le nostre ospiti \"Il cambiamento inizia da noi\" e con una buona dose di pragmatismo e dedizione, si può davvero fare la differenza! 😉\n\nTemi Chiave:\n\n- Rappresentazione Femminile: Le donne nel settore tech sono spesso sotto-rappresentate, con un gender pay-gap che fa riflettere. Ebbene sì, la meritocrazia è importante, ma ricordiamoci che \"La meritocrazia nasconde dei gap\" quando non c’è una vera parità di opportunità. 💡\n\n- Soffitto di Cristallo: Quello che, ironicamente, sembra più un \"soffitto di vetro\" resistente a ogni sforzo di rottura, impedisce alle donne di raggiungere posizioni di leadership. Un limite che, purtroppo, si fa sentire già dalle prime esperienze nel mondo STEM. 🚧\n\n- Cultura e Pari Opportunità: Per abbattere pregiudizi e discriminazioni che iniziano fin dalla giovane età, è fondamentale un cambiamento culturale profondo. Come evidenziato durante l’intervista, \"La comunicazione è interattiva\" e può essere lo strumento chiave per costruire una cultura inclusiva. 📣\n\n- Modelli Femminili e Innovazione: I modelli femminili non sono solo un faro per le nuove generazioni, ma anche catalizzatori di empowerment. Il gioco dell’hack, ad esempio, dimostra in modo creativo le difficoltà quotidiane che le donne affrontano nel tech, invitandoci a riflettere e agire con ironia e serietà. 🕹️\n\nQuesta intervista non è solo una finestra sulle sfide attuali, ma anche un invito all'azione: partecipa al manifesto, diventa ambasciatore/ambasciatrice del cambiamento!\n\nUnisciti alla conversazione e contribuisci a rendere la tecnologia un ambiente più inclusivo, dove la diversità è una risorsa fondamentale. ✨\n\n#M71A #gendergap #genderpaygap #uguaglianza #donne #tecnologia #manifesto #discriminazione #STEM #pregiudizi #cultura #leadership #empowerment",
+          "viewCount": 110,
+          "likeCount": 5,
+          "commentCount": 0,
+          "publishedAt": "2025-03-08T09:25:00Z"
+        },
+        {
+          "id": "pZI2afVS61U",
+          "url": "https://www.youtube.com/watch?v=pZI2afVS61U",
+          "title": "Davide di Pumpo - Quittare una major: Posizioni ambite ma per motivi sbagliati",
+          "description": "Quanti di voi hanno sognato di lavorare in una FAANG? Ma è davvero tutto oro quello che luccica? \n\nPreparati a entrare nel cuore del tech e a vivere un'esperienza unica con il DevDojo Live! 🔥🙌\n\n\"Ci stanno tracciando, staccah staccah!\"\n\n#DevDojo #TechTalk #LiveStreaming #Innovation #SoftwareDevelopment",
+          "viewCount": 154,
+          "likeCount": 9,
+          "commentCount": 0,
+          "publishedAt": "2025-02-27T23:47:43Z"
+        },
+        {
+          "id": "cjgzM-a-yjc",
+          "url": "https://www.youtube.com/watch?v=cjgzM-a-yjc",
+          "title": "Andrea Confalonieri - Elogio alla pigrizia: la chiave di volta dell'evoluzione umana",
+          "description": "In questo video, Andrea Confalonieri ci svela perché la pigrizia può essere un potente motore di innovazione, specialmente nel mondo dell’informatica. Scopriremo:\n\n* Perché “essere pigri” nel nostro lavoro può aiutarci a trovare soluzioni più creative ed efficienti.\n* Come Andrea, da “nato pigro”, ha trasformato questa caratteristica in una professione.\n* Che cos’è il LEGO® Serious Play® e come questo metodo può sbloccare nuove prospettive (anche per i più pigri!).\n\nBuona visione e ricordate: a volte, la vera evoluzione umana parte proprio dalla voglia di semplificare le cose! Se il video vi piace, lasciate un commento, iscrivetevi al canale e condividetelo con chi pensate possa apprezzare un po’ di sana pigrizia.\n\nBuona visione!",
+          "viewCount": 111,
+          "likeCount": 5,
+          "commentCount": 0,
+          "publishedAt": "2025-01-28T09:24:01Z"
+        },
+        {
+          "id": "9XKQcOOHlRs",
+          "url": "https://www.youtube.com/watch?v=9XKQcOOHlRs",
+          "title": "Francesco Dominidiato - Career Ladder: costruire il tuo percorso di crescita e carriera",
+          "description": "In questo episodio, abbiamo il piacere di ospitare Francesco Dominidiato, esperto di leadership e sviluppo personale, per parlare di un argomento chiave nel mondo tech e non solo: le Career Ladder. Come si costruiscono? Quali sono i fattori da considerare per una crescita sostenibile? E soprattutto, come si passa da un ruolo junior a uno senior o addirittura a un ruolo manageriale?\n\nFrancesco condividerà la sua visione su:\n\nPercorsi di carriera ben strutturati: come implementare framework efficaci.\nErrori comuni da evitare quando pianifichi la tua crescita.\nL'importanza di avere obiettivi chiari e un mentore per guidarti.\nCome aziende e professionisti possono collaborare per costruire una cultura di crescita continua.\nNon importa se sei alle prime armi o già un professionista affermato, questa intervista ti offrirà consigli pratici e ispirazione per salire al livello successivo nella tua carriera!\n\n🎯 Non perderti questa chiacchierata ricca di insight e risorse utili. E parlando di risorse, ecco alcuni link imperdibili per approfondire l'argomento:\n► Levels.fyi\n► Progression.fyi\n► Engineering Ladders\n► GitHub: Engineering Ladder\n► GitHub: Progression Framework\n► Career Ladders\n\n🔥 Lascia un commento con la tua esperienza sulle Career Ladder! 🔥",
+          "viewCount": 149,
+          "likeCount": 6,
+          "commentCount": 0,
+          "publishedAt": "2025-01-13T10:00:16Z"
+        },
+        {
+          "id": "M403FJU-oXk",
+          "url": "https://www.youtube.com/watch?v=M403FJU-oXk",
+          "title": "Simone D'Amico - Lead through mistakes: How to \"gestire team tecnico\"",
+          "description": "Link alla newsletter: https://leadthroughmistakes.com/\n\nDiventare responsabili di un team o di un progetto è un salto importante, ma spesso sottovalutato. È facile pensare che basti assegnare i compiti e controllare che tutto fili liscio, ma presto emergono dinamiche ben più complesse: il micromanagement, la difficoltà di delegare, il bisogno di dare (e ricevere) feedback efficaci.\n\nIn questa puntata del Dev Dojo affronteremo temi fondamentali come:\n📌 La differenza tra gestire un progetto e guidare un team.\n📌 Imparare a non fare tutto da soli: il valore della delega e del time management.\n📌 Come affrontare conflitti e decisioni che impattano su più persone.\n📌 Active listening: ascoltare davvero per migliorare il clima e la performance.\n📌 Il senso di “non aver fatto nulla”: quando il valore della tua leadership non si vede subito, ma arriva sul lungo periodo.\n\nSe stai affrontando la sfida di coordinare altre persone, o vuoi prepararti a farlo in futuro, questa chiacchierata fa al caso tuo.\n\n#DevDojo #TeamManagement #Leadership #Feedback #Growth \n\n--- \n\n00:00 Intro",
+          "viewCount": 134,
+          "likeCount": 9,
+          "commentCount": 0,
+          "publishedAt": "2024-12-18T11:00:22Z"
+        },
+        {
+          "id": "Zxr9vbvkB5o",
+          "url": "https://www.youtube.com/watch?v=Zxr9vbvkB5o",
+          "title": "Filippo Galante - Prevenire (con il mentoring) è meglio che curare",
+          "description": "Mentoring e crescita professionale: come possono fare davvero la differenza in azienda? \n\nIn questa puntata di Dev Dojo, insieme a Filippo Galante, esploreremo come il mentoring non sia solo una pratica per chi ha anni di esperienza, ma un approccio che chiunque in azienda può adottare per contribuire alla crescita del team.\n\nParleremo di ownership ed empatia: come capire chi si ha davanti, come responsabilizzare le persone e aiutarle a crescere. Approfondiremo strumenti e attività pratiche come le code review e il pair programming, scoprendo come possano migliorare la capacità operativa del team. Daremo anche uno sguardo a strumenti come Jira e alle loro chart, utili per analizzare e ottimizzare il lavoro.\nQuando?\n\n📅 Lunedì 25 novembre 2024\n⏰ Ore 18:30\n📡 Dove seguirci?: Twitch e YouTube\n\nUnisciti a noi per una chiacchierata ricca di consigli pratici e strategie per fare del mentoring un’arma vincente per il tuo team!\n\n#DevDojo #mentoring #growth #techleadership #coderelationships",
+          "viewCount": 59,
+          "likeCount": 1,
+          "commentCount": 1,
+          "publishedAt": "2024-11-26T06:17:54Z"
+        },
+        {
+          "id": "uBjx9DHgKCw",
+          "url": "https://www.youtube.com/watch?v=uBjx9DHgKCw",
+          "title": "Diego Bernini - The day after “diploma in informatica”: E ora che faccio?",
+          "description": "Diploma in tasca, ma nessuna bussola per il futuro? Questo episodio è dedicato a chi, uscito da un diploma in Informatica, si trova di fronte a un bivio importante e non sa quale strada prendere dopo la scuola. \nIn compagnia del prof. Diego Bernini, docente dell’ITIS Paleocapa di Bergamo e della Fondazione ITS - Jobs Academy, esploreremo le scelte possibili: università, lavoro, corsi di specializzazione o… qualcosa di completamente diverso?\n\nParleremo delle opportunità che il mondo tech può offrire ai giovani, delle competenze più richieste oggi e di come orientarsi in un mercato del lavoro in continua evoluzione. Se sei studente, genitore o semplicemente vuoi scoprire di più su cosa può fare la differenza nel passaggio dalla scuola al mondo reale, questa puntata fa per te!\n\n📅 Quando? \nIl 18 Novembre 2024 alle 18:00\n\n📡 Dove? \nYouTube & Twitch\n\nUnisciti a noi per una chiacchierata ricca di spunti utili, consigli pratici e un pizzico di ispirazione per affrontare il \"giorno dopo\"!\n\n#DevDojo #giovani #tech #futuro #formazione #scuolalavoro",
+          "viewCount": 113,
+          "likeCount": 7,
+          "commentCount": 0,
+          "publishedAt": "2024-11-19T06:35:22Z"
+        },
+        {
+          "id": "xQ5XyQaE7hk",
+          "url": "https://www.youtube.com/watch?v=xQ5XyQaE7hk",
+          "title": "Stefano Fago - Ma che ne sai tu dei punti di ricarica? Protocollo OCPP e affini",
+          "description": "E chi l’avrebbe mai pensato che un apparecchio semplice come una colonnina di ricarica delle automobili nascondesse al suo interno una complessità enorme e sfide oltre a quelle dei sistemi distribuiti?\nParleremo di un mondo che, anche se completamente distante dal web development (ma non troppo), ci permetterà di addentrarci in problematiche interessanti e soluzioni creative.\n\nPartiamo dalla base: L’OCPP. \nL’Open Charge Point Protocol è lo standard e specifica internazionale che guida le infrastrutture di ricarica dei veicoli elettrici. Faremo due chiacchiere sulla sua origine, il suo ruolo \ncruciale nel promuovere l'interoperabilità e i vantaggi tecnici che lo rendono essenziale per gli operatori di punti di ricarica (CPO) e i produttori di apparecchiature di alimentazione per veicoli elettrici (EVSE). Discuteremo le caratteristiche chiave del protocollo e i loro impatti sullo sviluppo del software del sistema centrale.\n\n📅 Quando: 11 Novembre 2024 alle 18:30\n📡 Dove seguirci: Twitch e YouTube",
+          "viewCount": 96,
+          "likeCount": 4,
+          "commentCount": 3,
+          "publishedAt": "2024-11-12T06:41:30Z"
+        },
+        {
+          "id": "7Qdb7Twqp9M",
+          "url": "https://www.youtube.com/watch?v=7Qdb7Twqp9M",
+          "title": "Guido Penta, Victoria Ceccaroni, Fabrizio Lallo - Lavori e compensi tech in Italia Facciamo il punto",
+          "description": "Qual è davvero lo stipendio medio per uno sviluppatore in Italia? E se il mio stipendio attuale non mi soddisfa, quali opportunità offre il mercato per puntare più in alto? \n\nIn questo episodio, rispondiamo a queste e altre domande che chi lavora nel settore tech si pone spesso. Approfondiremo anche come trovare aziende che sappiano valorizzare i talenti, senza rischiare il burnout, e cosa cercano le imprese nei candidati, dalle competenze tecniche alle soft skills.\n\nInoltre, non mancherà un focus sulla parità di genere nel settore IT: a che punto siamo, e quali iniziative stanno emergendo per creare un ambiente di lavoro sempre più equo e inclusivo? Se vuoi conoscere meglio il panorama del lavoro tech in Italia e ricevere consigli per orientarti nella tua carriera, questo episodio fa per te.\n\n📅 Quando: 04 Novembre 2024 alle 18:00\n📡 Dove seguirci: Twitch e YouTube\n👤 Ospiti: Guido Penta, Victoria Ceccaroni, Fabrizio Lallo\n\nUnisciti alla nostra discussione per fare il punto sulla realtà del mondo tech in Italia: dal lavoro quotidiano alle ambizioni di crescita personale e professionale!\n\n#techjobs #stipenditech #softwaredevelpment #paritàdigenere #podcast #sviluppatori #devdojo #devdojo_it",
+          "viewCount": 367,
+          "likeCount": 19,
+          "commentCount": 4,
+          "publishedAt": "2024-11-05T06:18:46Z"
+        },
+        {
+          "id": "CW1FM75NAWc",
+          "url": "https://www.youtube.com/watch?v=CW1FM75NAWc",
+          "title": "Giulia Tosato - Community tech: why yes?",
+          "description": "Unisciti a noi in una chiacchierata informale con Giulia Tosato, Tech Event Organizer e Community Manager del GrUSP, mentre esploriamo il mondo delle community tech.\n\n🔍 Scopriremo insieme perché far parte di una community tecnologica può accelerare la crescita professionale, creare opportunità di networking e favorire lo scambio di conoscenze. \n\n🎯 Questo episodio è pensato per sviluppatori junior e mid-level che vogliono comprendere i benefici concreti di partecipare ad eventi e gruppi tech. \n\n📻 Sintonizzati per scoprire come le community possono essere il tuo trampolino di lancio nel mondo dello sviluppo software!\n\n📅 𝗤𝘂𝗮𝗻𝗱𝗼?\n🗓 𝗗𝗮𝘁𝗮: 28 Ottobre 2024\n⏰ 𝗢𝗿𝗮: 17:00\n📡 𝗗𝗼𝘃𝗲 𝘀𝗲𝗴𝘂𝗶𝗿𝗰𝗶? YouTube e Twitch\n\n👉 Sintonizzati per scoprire come le community tech possono essere un trampolino di lancio nel mondo dello sviluppo software!\n\n#podcast #communitytech #sviluppoweb #networking #formazione #devdojo #devdojo_it #grusp",
+          "viewCount": 64,
+          "likeCount": 3,
+          "commentCount": 2,
+          "publishedAt": "2024-10-29T05:24:40Z"
+        },
+        {
+          "id": "ixKh0KZ3m7U",
+          "url": "https://www.youtube.com/watch?v=ixKh0KZ3m7U",
+          "title": "Roberto Gallea - Da O(1) a O(Noooo!): Breve viaggio nella complessità computazionale",
+          "description": "Se ti sei mai chiesto perché anche il tuo Intel Core i9 11ª generazione certe volte è troppo lento e non ce la fa, ascolta questo talk!\n\nIn questo episodio live, ci addentriamo nel mondo affascinante della complessità computazionale. Insieme a Roberto Gallea esploreremo cosa significano davvero queste misteriose notazioni di cui ogni tanto si sente parlare, come O(n), spiegheremo il concetto di limite superiore e limite inferiore e come influenzano il modo in cui scriviamo codice e l’efficacia del nostro algoritmo. \n\nCon un approccio leggero e accessibile, ma soprattutto pratico, Roberto ci guiderà alla scoperta di come le performance dei nostri algoritmi possano trasformarsi da ottimali a... decisamente disastrose! Un tema complesso, ma affrontato con il giusto equilibrio tra divertimento e comprensione.",
+          "viewCount": 64,
+          "likeCount": 4,
+          "commentCount": 0,
+          "publishedAt": "2024-10-22T03:21:54Z"
+        },
+        {
+          "id": "AH8DfyTFT-M",
+          "url": "https://www.youtube.com/watch?v=AH8DfyTFT-M",
+          "title": "Alessandro Manno - 5 motivi per non usare Kubernetes (e 5 per usarlo)",
+          "description": "In un mondo in cui Kubernetes è sinonimo di innovazione tecnologica, è davvero la scelta giusta per tutti? Nel nostro ultimo episodio, esploriamo il controverso dibattito tra chi sostiene l'adozione di Kubernetes e chi, invece, ne evidenzia le complessità. Attraverso un'analisi critica, mettiamo a confronto 5 motivi per non usare Kubernetes con 5 ragioni per adottarlo. Se sei alle prese con la decisione di implementare questa piattaforma, o semplicemente curioso di scoprire cosa c'è dietro le quinte della sua complessità, questo episodio ti offrirà una prospettiva unica e sorprendente. Kubernetes: innovazione o complicazione?",
+          "viewCount": 106,
+          "likeCount": 8,
+          "commentCount": 0,
+          "publishedAt": "2024-10-15T05:42:09Z"
+        },
+        {
+          "id": "pyNxKMESdow",
+          "url": "https://www.youtube.com/watch?v=pyNxKMESdow",
+          "title": "Francesco Fullone - Sviluppo Software e Sostenibilità",
+          "description": "Possiamo parlare di sostenibilità in ambito dello sviluppo software?^ Sicuramente ed è uno dei temi caldi del momento. Ma che cosa si intende? Parliamo solamente di sostenibilità ambientale oppure ci sono tante altre forme di sostenibilità? \n\nScopriamolo insieme al nostro super ospite, Fracesco \"Fullo\" Fullone, sustainability consultant e presidente del @grusp (e non solo, ma la lista sarebbe stata troppo lunga)",
+          "viewCount": 50,
+          "likeCount": 3,
+          "commentCount": 0,
+          "publishedAt": "2024-10-08T05:18:47Z"
+        },
+        {
+          "id": "vYK_3QHT65M",
+          "url": "https://www.youtube.com/watch?v=vYK_3QHT65M",
+          "title": "Franco Lombardo - LLM in PHP? Eccovi servito LLPhant",
+          "description": "Un client per l'AI generativa in PHP? Esiste ed è open source. \nSi chiama LLPhant e ha la bellezza di 775 ⭐ su Github ed una community intorno bella vivace. \n\nDateci una sbirciata nel sito ufficiale: https://llphant.io\n\nFranco Lombardo 🇺🇦, Senior Software Developer presso A-Cube nonché contributor di spicco di LLPhant, ci racconterà della sua esperienza nel campo dell'Open Source e dei Large Language Model LLPhant.",
+          "viewCount": 186,
+          "likeCount": 6,
+          "commentCount": 2,
+          "publishedAt": "2024-09-24T17:25:18Z"
+        },
+        {
+          "id": "ZereVNi5N6I",
+          "url": "https://www.youtube.com/watch?v=ZereVNi5N6I",
+          "title": "Valerio Barbera - Turbo PHP: sblocca il massimo potenziale del tuo codice",
+          "description": "Valerio Barbera, CTO e Founder di Inspector, ci guiderà attraverso il suo viaggio nell’ottimizzazione delle prestazioni dei batch PHP, svelando tecniche avanzate per spremere ogni singolo millisecondo dal codice.",
+          "viewCount": 86,
+          "likeCount": 3,
+          "commentCount": 0,
+          "publishedAt": "2024-09-24T17:22:03Z"
+        },
+        {
+          "id": "_L-nlJ5WupM",
+          "url": "https://www.youtube.com/watch?v=_L-nlJ5WupM",
+          "title": "Filippo \"Il Gala\" Galante - Debito tecnico e suoi derivati",
+          "description": "Filippo Galante, Tech Leader di Job Tech, ci parlerà della sua esperienza con il debito tecnico e che strategia ha adottato nel corso degli anni per affrontarlo e tenerlo a bada.\n\nEssendo live, avrete la possibilità di interagire e fare tutte le domande che vorrete.",
+          "viewCount": 111,
+          "likeCount": 4,
+          "commentCount": 0,
+          "publishedAt": "2024-09-10T05:22:17Z"
+        }
+      ]
+    },
+    {
+      "id": "PLM5s0-jaz0crsInBSpeafa-ECeE3tp20H",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0crsInBSpeafa-ECeE3tp20H",
+      "title": "Tech Bold Opinions",
+      "description": "Amici, speakers e attendees: dimenticatevi le frasi fatte e i panel accomodanti, qui raccogliamo le opinioni più audaci, i punti di vista scomodi e le provocazioni costruttive emerse durante le nostre partecipazioni alle migliori Conferenze Tech.",
+      "itemCount": 1,
+      "kind": "youtube#playlist",
+      "etag": "uTuBaoW8ftPCmG2atCN-3-42xLY",
+      "snippet": {
+        "publishedAt": "2025-02-04T14:19:09.368991Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "Tech Bold Opinions",
+        "description": "Amici, speakers e attendees: dimenticatevi le frasi fatte e i panel accomodanti, qui raccogliamo le opinioni più audaci, i punti di vista scomodi e le provocazioni costruttive emerse durante le nostre partecipazioni alle migliori Conferenze Tech.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g6y-BAGDuQk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g6y-BAGDuQk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g6y-BAGDuQk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/g6y-BAGDuQk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/g6y-BAGDuQk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "Tech Bold Opinions",
+          "description": "Amici, speakers e attendees: dimenticatevi le frasi fatte e i panel accomodanti, qui raccogliamo le opinioni più audaci, i punti di vista scomodi e le provocazioni costruttive emerse durante le nostre partecipazioni alle migliori Conferenze Tech."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 1
+      },
+      "videos": [
+        {
+          "id": "g6y-BAGDuQk",
+          "url": "https://www.youtube.com/watch?v=g6y-BAGDuQk",
+          "title": "Tech Bold Opinions @ Coderful 2025",
+          "description": "Il nostro piccolo contributo alla fantastica conferenza del Coderful #1 Backend Edition: un mix epico delle migliori, folli e straordinarie opinioni forti raccolte direttamente da amici, colleghi, leggende della Computer Science, e più in generale del panorama Tech.\n\nSe volete sostenere il progetto del Dojo offriteci un caffè https://buymeacoffee.com/devdojo_it",
+          "viewCount": 397,
+          "likeCount": 39,
+          "commentCount": 3,
+          "publishedAt": "2025-02-04T14:53:07Z"
+        }
+      ]
+    },
+    {
+      "id": "PLM5s0-jaz0co6JwsLIqqGwef_xzxniOAj",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0co6JwsLIqqGwef_xzxniOAj",
+      "title": "Showdowns Arena",
+      "description": "L'arena del Dojo: linguaggi, frameworks, idee che si sfidano a colpi di codice in round tematici, ognuno con un solo obiettivo: conquistare il tuo voto. Chi vincerà queste sfide? Tifa, Vota, Commenta.",
+      "itemCount": 1,
+      "kind": "youtube#playlist",
+      "etag": "ugNcdQA1ALf20m5RTWnInBBRnaM",
+      "snippet": {
+        "publishedAt": "2025-03-07T15:10:50.161219Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "Showdowns Arena",
+        "description": "L'arena del Dojo: linguaggi, frameworks, idee che si sfidano a colpi di codice in round tematici, ognuno con un solo obiettivo: conquistare il tuo voto. Chi vincerà queste sfide? Tifa, Vota, Commenta.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ISOHU4bS77Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ISOHU4bS77Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ISOHU4bS77Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ISOHU4bS77Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ISOHU4bS77Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "Showdowns Arena",
+          "description": "L'arena del Dojo: linguaggi, frameworks, idee che si sfidano a colpi di codice in round tematici, ognuno con un solo obiettivo: conquistare il tuo voto. Chi vincerà queste sfide? Tifa, Vota, Commenta."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 1
+      },
+      "videos": [
+        {
+          "id": "ISOHU4bS77Q",
+          "url": "https://www.youtube.com/watch?v=ISOHU4bS77Q",
+          "title": "Languages Showdown LIVE! - Python vs PHP vs Java",
+          "description": "Languages Showdown: l’epico scontro fra i giganti del codice!\n\nPreparati a seguire in diretta la sfida più avvincente del mondo tech, dove Python, PHP e Java si affronteranno in un ring virtuale a suon di round tematici. Tu sarai protagonista del giudizio finale: potrai votare ogni sfida e decretare il vincitore assoluto!\n\nLe regole del match\n • 3 linguaggi di programmazione: PHP, Python e Java\n • 3 campioni pronti a difendere il proprio linguaggio con grinta:\n  - Christian Nastasi (PHP)\n  - Raffaele Colace (Python)\n   - Riccardo Degni (Java)\n • 1 arbitro/presentatore: Emiliano Pisu, che guiderà la live con rigore e passione\n • 8 round: Per ogni round un quesiti tecnico. Il pubblico decreterà il vincitore del singolo round\n • Vincitore: chi vince più round\n\nI round tecnici\n 1. Hello World\n 2. Tipizzazione\n 3. Funzioni\n 4. Classi e oggetti\n 5. Ereditarietà e polimorfismo\n 6. Gestione delle eccezioni:\n 7. Dipendenze e pacchetti\n 8. Testing e debugging\n\nSarà il tuo voto a decretare il vincitore!",
+          "viewCount": 257,
+          "likeCount": 18,
+          "commentCount": 5,
+          "publishedAt": "2025-02-28T17:28:07Z"
+        }
+      ]
+    },
+    {
+      "id": "PLM5s0-jaz0crgsZc5E8EODFbddVio4AOT",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0crgsZc5E8EODFbddVio4AOT",
+      "title": "Dall'Idea al Prodotto",
+      "description": "In questo spazio, i Sensei divulgano le loro idee e soluzioni nate dall'esperienza e dalla sperimentazione: è qui che i Kohai possono apprendere le arti dello sviluppo software nei suoi vari aspetti, dalla UI alle API, dal design al prodotto.",
+      "itemCount": 2,
+      "kind": "youtube#playlist",
+      "etag": "9j84E07MGMFwnIn8by-GLtwd5Cg",
+      "snippet": {
+        "publishedAt": "2025-01-17T16:25:22.717955Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "Dall'Idea al Prodotto",
+        "description": "In questo spazio, i Sensei divulgano le loro idee e soluzioni nate dall'esperienza e dalla sperimentazione: è qui che i Kohai possono apprendere le arti dello sviluppo software nei suoi vari aspetti, dalla UI alle API, dal design al prodotto.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BDW6DRkYa0E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BDW6DRkYa0E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BDW6DRkYa0E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BDW6DRkYa0E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BDW6DRkYa0E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "Dall'Idea al Prodotto",
+          "description": "In questo spazio, i Sensei divulgano le loro idee e soluzioni nate dall'esperienza e dalla sperimentazione: è qui che i Kohai possono apprendere le arti dello sviluppo software nei suoi vari aspetti, dalla UI alle API, dal design al prodotto."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "videos": [
+        {
+          "id": "BDW6DRkYa0E",
+          "url": "https://www.youtube.com/watch?v=BDW6DRkYa0E",
+          "title": "Christian Nastasi ed Emiliano Pisu - Dall'Idea al Prodotto: Viaggio nella mente di uno sviluppatore",
+          "description": "Unisciti a Christian Nastasi (backend developer) ed Emiliano Pisu (frontend developer) in un viaggio attraverso il processo creativo e tecnico dello sviluppo di un sito web. In questa live, partiremo dal design iniziale per sviluppare insieme Dev Dojo, costruendo il frontend e integrandolo con la parte backend fino alla messa online del prodotto finale.\n\nScopri tutti i passaggi, le sfide e le decisioni che portano un’idea a trasformarsi in un sito web funzionante. Non perderti questa esperienza in diretta per esplorare la mente di due sviluppatori al lavoro!\n\n#devdojo #programming #software #softwareengineer #softwaredevelopment #frontend #livecoding #javascript #css #html #productdesign",
+          "viewCount": 318,
+          "likeCount": 16,
+          "commentCount": 0,
+          "publishedAt": "2025-01-18T18:42:56Z"
+        },
+        {
+          "id": "EecG8s1wFRI",
+          "url": "https://www.youtube.com/watch?v=EecG8s1wFRI",
+          "title": "Perchè è così difficile stimare? - Parte 1",
+          "description": "",
+          "viewCount": 184,
+          "likeCount": 9,
+          "commentCount": 0,
+          "publishedAt": "2024-09-18T12:00:20Z"
+        }
+      ]
+    },
+    {
+      "id": "PLM5s0-jaz0covtgEtv8PfgQKUybM9S5uj",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0covtgEtv8PfgQKUybM9S5uj",
+      "title": "I Talks del Dojo",
+      "description": "Zero marketing, solo esperienza sul campo: walkthrough passo-passo, demo live, best practice e “post-mortem” sinceri che ti faranno risparmiare tempo (e bug) nei tuoi progetti.",
+      "itemCount": 4,
+      "kind": "youtube#playlist",
+      "etag": "77wI6YLT_7DXlHpmFYxM31aN_9k",
+      "snippet": {
+        "publishedAt": "2024-09-04T21:08:25.451987Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "I Talks del Dojo",
+        "description": "Zero marketing, solo esperienza sul campo: walkthrough passo-passo, demo live, best practice e “post-mortem” sinceri che ti faranno risparmiare tempo (e bug) nei tuoi progetti.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qxITSu3Wo7I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qxITSu3Wo7I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qxITSu3Wo7I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qxITSu3Wo7I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qxITSu3Wo7I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "I Talks del Dojo",
+          "description": "Zero marketing, solo esperienza sul campo: walkthrough passo-passo, demo live, best practice e “post-mortem” sinceri che ti faranno risparmiare tempo (e bug) nei tuoi progetti."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 4
+      },
+      "videos": [
+        {
+          "id": "qxITSu3Wo7I",
+          "url": "https://www.youtube.com/watch?v=qxITSu3Wo7I",
+          "title": "Lara Lombardi - Personal Branding 101: Investi in te stesso",
+          "description": "Essere un bravo sviluppatore non basta più: oggi è fondamentale farsi conoscere e sapersi raccontare. Ma come si costruisce un personal brand efficace? Ne parliamo con Lara Lombardi, Marketing & Communication Manager in Apropos s.r.l., che ci guiderà in un viaggio alla scoperta delle strategie migliori per promuovere se stessi nel mondo tech.\n\nDiscuteremo di:\n📌 Cosa significa davvero fare personal branding e perché è importante per gli sviluppatori.\n📌 Strumenti e tecniche pratiche: quali canali usare, che tono di voce adottare, come costruire relazioni significative.\n📌 Il valore dei talk e delle conferenze come strumento per farsi conoscere.\n📌 La differenza tra vendere un prodotto e costruire la propria reputazione.\n📌 Quando inizierai a vedere i risultati del tuo lavoro di personal branding?\n\nSe anche tu ti senti un po’ “orso nella caverna” quando si tratta di comunicare, questa puntata è l’occasione giusta per uscire allo scoperto e iniziare a investire su te stesso.\n\n#DevDojo #PersonalBranding #developers #communication #techskills",
+          "viewCount": 66,
+          "likeCount": 6,
+          "commentCount": 1,
+          "publishedAt": "2024-12-10T06:44:52Z"
+        },
+        {
+          "id": "HsRoU0dSc4M",
+          "url": "https://www.youtube.com/watch?v=HsRoU0dSc4M",
+          "title": "Marinella Mastrosimone - UX Design: Come non farsi odiare (troppo) dai developers",
+          "description": "Progettare esperienze utente straordinarie è un’arte, ma cosa succede quando il design incontra il codice? In questa puntata di Dev Dojo accogliamo Marinella Mastrosimone, UX Designer in RadicalBit, per esplorare i confini tra creatività e sviluppo.\n\nParleremo di design e di interazione uomo/macchina. Ma non finisce qui: Marinella ci parlerà delle sfide quotidiane nel lavoro con gli stakeholder e del rapporto (a volte complicato) tra designer e developer. Condividerà anche strumenti pratici come design systems, Figma e Dev Mode, e ci spiegherà quanto sia utile un approccio che pensa già in HTML.\n\n📅 Quando?  Lunedì 2 dicembre alle 18:30\n📡 Dove seguirci?: YouTube & Twitch\n\nSe sei uno sviluppatore, un designer o un appassionato di tecnologia, non perdere questa puntata ricca di consigli e spunti per collaborare meglio e costruire progetti di successo.\n\n#DevDojo #UXDesign #developers #designsystems #techcollaboration",
+          "viewCount": 68,
+          "likeCount": 5,
+          "commentCount": 0,
+          "publishedAt": "2024-12-03T06:44:37Z"
+        },
+        {
+          "id": "bG4aO7OOvb8",
+          "url": "https://www.youtube.com/watch?v=bG4aO7OOvb8",
+          "title": "Filippo Donadoni - Componenti input sotto steroidi! con Vue.js e Tailwind",
+          "description": "In questo talk Filippo ci mostra come, con poche righe di codice, sia possibile personalizzare e aggiungere stile e usabilità a dei componenti di input. Il tutto usando Vue.js e Tailwind",
+          "viewCount": 136,
+          "likeCount": 8,
+          "commentCount": 0,
+          "publishedAt": "2024-09-04T21:55:12Z"
+        },
+        {
+          "id": "OwmDWb6pGGA",
+          "url": "https://www.youtube.com/watch?v=OwmDWb6pGGA",
+          "title": "Christian Nastasi - Strategy Pattern applicato con PHP, Behat e approccio BDD",
+          "description": "In questo talk tecnico, esploriamo l'implementazione del Pattern Strategy attraverso un esempio pratico e minimale: la simulazione di una cassa che scansiona i prodotti e li visualizza su uno scontrino. Utilizzando PHP come linguaggio principale e sfruttando Behat per i test comportamentali, ti mostrerò come la metodologia BDD (Behavior-Driven Development) aiuta a progettare soluzioni flessibili e mantenibili.\n\nUn'ottima occasione per scoprire come design patterns e buone pratiche di sviluppo possono semplificare la tua architettura software!",
+          "viewCount": 230,
+          "likeCount": 10,
+          "commentCount": 2,
+          "publishedAt": "2024-08-30T10:59:42Z"
+        }
+      ]
+    },
+    {
+      "id": "PLM5s0-jaz0cqL6yNGHE68rQLi0nCksZiJ",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0cqL6yNGHE68rQLi0nCksZiJ",
+      "title": "Advent of Code",
+      "description": "Risolviamo insieme i quesiti dell'Advent of Code: non sempre riusciremo a trovare la soluzione, però è divertente provarci, no? Partecipate alle live e date il vostro contributo.",
+      "itemCount": 13,
+      "kind": "youtube#playlist",
+      "etag": "IU0im82lXVydN3IqSPRblC-JoAw",
+      "snippet": {
+        "publishedAt": "2024-12-05T17:20:01.848366Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "Advent of Code",
+        "description": "Risolviamo insieme i quesiti dell'Advent of Code: non sempre riusciremo a trovare la soluzione, però è divertente provarci, no? Partecipate alle live e date il vostro contributo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VHOK46YJCVA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VHOK46YJCVA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VHOK46YJCVA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VHOK46YJCVA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VHOK46YJCVA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "Advent of Code",
+          "description": "Risolviamo insieme i quesiti dell'Advent of Code: non sempre riusciremo a trovare la soluzione, però è divertente provarci, no? Partecipate alle live e date il vostro contributo."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 13
+      },
+      "videos": [
+        {
+          "id": "VHOK46YJCVA",
+          "url": "https://www.youtube.com/watch?v=VHOK46YJCVA",
+          "title": "🎄Advent of code - Day 10 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nIn modalità MOB Programming (chiunque può entrare e partecipare) risolviamo insieme i quesiti dell'Advent of code.",
+          "viewCount": 22,
+          "likeCount": 1,
+          "commentCount": 0,
+          "publishedAt": "2024-12-11T03:06:03Z"
+        },
+        {
+          "id": "mh9q9RY574w",
+          "url": "https://www.youtube.com/watch?v=mh9q9RY574w",
+          "title": "🎄 Advent of code - Day 9 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nIn modalità MOB Programming (chiunque può entrare e partecipare) risolviamo insieme i quesiti dell'Advent of code.",
+          "viewCount": 27,
+          "likeCount": 0,
+          "commentCount": 0,
+          "publishedAt": "2024-12-09T16:09:43Z"
+        },
+        {
+          "id": "FsKT06wONlQ",
+          "url": "https://www.youtube.com/watch?v=FsKT06wONlQ",
+          "title": "🎄Advent of code - Day 8 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nIn modalità MOB Programming (chiunque può entrare e partecipare) risolviamo insieme i quesiti dell'Advent of code.",
+          "viewCount": 34,
+          "likeCount": 1,
+          "commentCount": 0,
+          "publishedAt": "2024-12-09T03:56:36Z"
+        },
+        {
+          "id": "ByJq93uFKms",
+          "url": "https://www.youtube.com/watch?v=ByJq93uFKms",
+          "title": "🎄 Advent of code - Day 7 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nIn modalità MOB Programming (chiunque può entrare e partecipare) risolviamo insieme i quesiti dell'Advent of code.",
+          "viewCount": 21,
+          "likeCount": 0,
+          "commentCount": 0,
+          "publishedAt": "2024-12-08T03:29:45Z"
+        },
+        {
+          "id": "y6nv-T0HD60",
+          "url": "https://www.youtube.com/watch?v=y6nv-T0HD60",
+          "title": "🎄Advent of code - Day 06 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nLet's solve the today's puzzle",
+          "viewCount": 14,
+          "likeCount": 0,
+          "commentCount": 0,
+          "publishedAt": "2024-12-07T03:54:54Z"
+        },
+        {
+          "id": "oRNETv0DaAs",
+          "url": "https://www.youtube.com/watch?v=oRNETv0DaAs",
+          "title": "🎄Advent of code - Day 05 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nQuinto giorno dell'Advent of code",
+          "viewCount": 36,
+          "likeCount": 2,
+          "commentCount": 0,
+          "publishedAt": "2024-12-05T16:31:46Z"
+        },
+        {
+          "id": "oRNETv0DaAs",
+          "url": "https://www.youtube.com/watch?v=oRNETv0DaAs",
+          "title": "🎄Advent of code - Day 05 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nQuinto giorno dell'Advent of code",
+          "viewCount": 36,
+          "likeCount": 2,
+          "commentCount": 0,
+          "publishedAt": "2024-12-05T16:31:46Z"
+        },
+        {
+          "id": "cF-OOHQWgNU",
+          "url": "https://www.youtube.com/watch?v=cF-OOHQWgNU",
+          "title": "🎄Advent of code - Day 4 - Live Coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nRisoluzione del 4° esercizio dell'Advent of Code",
+          "viewCount": 29,
+          "likeCount": 0,
+          "commentCount": 0,
+          "publishedAt": "2024-12-04T16:27:24Z"
+        },
+        {
+          "id": "cF-OOHQWgNU",
+          "url": "https://www.youtube.com/watch?v=cF-OOHQWgNU",
+          "title": "🎄Advent of code - Day 4 - Live Coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nRisoluzione del 4° esercizio dell'Advent of Code",
+          "viewCount": 29,
+          "likeCount": 0,
+          "commentCount": 0,
+          "publishedAt": "2024-12-04T16:27:24Z"
+        },
+        {
+          "id": "jw2Rq9NJN1E",
+          "url": "https://www.youtube.com/watch?v=jw2Rq9NJN1E",
+          "title": "🎄Advent of code - Day 2 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\n\nCiao, proviamo insieme a risolvere le prove dell'Advent of code. \n\nAccesso  libero a chiunque voglia partecipare in diretta",
+          "viewCount": 24,
+          "likeCount": 2,
+          "commentCount": 0,
+          "publishedAt": "2024-12-03T04:57:57Z"
+        },
+        {
+          "id": "jw2Rq9NJN1E",
+          "url": "https://www.youtube.com/watch?v=jw2Rq9NJN1E",
+          "title": "🎄Advent of code - Day 2 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\n\nCiao, proviamo insieme a risolvere le prove dell'Advent of code. \n\nAccesso  libero a chiunque voglia partecipare in diretta",
+          "viewCount": 24,
+          "likeCount": 2,
+          "commentCount": 0,
+          "publishedAt": "2024-12-03T04:57:57Z"
+        },
+        {
+          "id": "yavqGFdKhYI",
+          "url": "https://www.youtube.com/watch?v=yavqGFdKhYI",
+          "title": "🎄 Advent of code - Day 1 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nCiao a tutti, è arrivato il momento dell'anno che tutti noi progammatori aspettavamo con fervore... l'Advent of Code!\n\nIn una sessione aperta faremo MOB Programming provanto tutti insieme a risolvere il primo esercizio.",
+          "viewCount": 57,
+          "likeCount": 2,
+          "commentCount": 2,
+          "publishedAt": "2024-12-02T04:05:36Z"
+        },
+        {
+          "id": "yavqGFdKhYI",
+          "url": "https://www.youtube.com/watch?v=yavqGFdKhYI",
+          "title": "🎄 Advent of code - Day 1 - Live coding",
+          "description": "Github: https://github.com/cnastasi/advent-of-code-24\nCiao a tutti, è arrivato il momento dell'anno che tutti noi progammatori aspettavamo con fervore... l'Advent of Code!\n\nIn una sessione aperta faremo MOB Programming provanto tutti insieme a risolvere il primo esercizio.",
+          "viewCount": 57,
+          "likeCount": 2,
+          "commentCount": 2,
+          "publishedAt": "2024-12-02T04:05:36Z"
+        }
+      ]
+    },
+    {
+      "id": "PLM5s0-jaz0cpdQJUGdL-7u7j2n3Pq72a8",
+      "url": "https://www.youtube.com/playlist?list=PLM5s0-jaz0cpdQJUGdL-7u7j2n3Pq72a8",
+      "title": "Shorts",
+      "description": "Tutti gli shorts del Dev Dojo",
+      "itemCount": 6,
+      "kind": "youtube#playlist",
+      "etag": "qzo-dgF5wlFpQVwPRaLYrvEWEI8",
+      "snippet": {
+        "publishedAt": "2024-09-09T22:57:45.145138Z",
+        "channelId": "UC9LJK6XUUgd-zf-Gwmkp_Uw",
+        "title": "Shorts",
+        "description": "Tutti gli shorts del Dev Dojo",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/35g3rn6fh1g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/35g3rn6fh1g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/35g3rn6fh1g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/35g3rn6fh1g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/35g3rn6fh1g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dev Dojo IT",
+        "localized": {
+          "title": "Shorts",
+          "description": "Tutti gli shorts del Dev Dojo"
+        }
+      },
+      "contentDetails": {
+        "itemCount": 6
+      },
+      "videos": [
+        {
+          "id": "35g3rn6fh1g",
+          "url": "https://www.youtube.com/watch?v=35g3rn6fh1g",
+          "title": "Come si rende più precisa una stima? #softwaredevelopment #softwareengineering #estimates #devdojo",
+          "description": "Quali sono i fattori che rendono una stima più precisa? Scoprilo nel video completo",
+          "viewCount": 54,
+          "likeCount": 1,
+          "commentCount": 0,
+          "publishedAt": "2024-09-19T12:34:16Z"
+        },
+        {
+          "id": "pXgRjjR0UA0",
+          "url": "https://www.youtube.com/watch?v=pXgRjjR0UA0",
+          "title": "Debito Tecnico - La Metafora del Cuoco",
+          "description": "Anche in cucina esiste il debito tecnico? Ebbene sì. Christian Nastasi ce lo racconta con questa metafora",
+          "viewCount": 510,
+          "likeCount": 8,
+          "commentCount": 0,
+          "publishedAt": "2024-09-14T08:24:42Z"
+        },
+        {
+          "id": "-74DQ-owj-Q",
+          "url": "https://www.youtube.com/watch?v=-74DQ-owj-Q",
+          "title": "Debito Tecnico e suoi derivati - Parte 1  #programming  #coding #technicaldebt",
+          "description": "Filippo \"Il Gala\" Galante ci spiega che cos'è il debito tecnico e  che cosa si sono inventati nella sua azienda per gestirlo",
+          "viewCount": 532,
+          "likeCount": 8,
+          "commentCount": 0,
+          "publishedAt": "2024-09-11T07:10:58Z"
+        },
+        {
+          "id": "PozhVZCMeks",
+          "url": "https://www.youtube.com/watch?v=PozhVZCMeks",
+          "title": "Debito tecnico e suoi derivati - Parte 3 #programming #technicaldebt #devdojo_it #ilgala #coding",
+          "description": "Filippo \"Il Gala\" Galante ci spiega che cos'è il debito tecnico e  che cosa si sono inventati nella sua azienda per gestirlo",
+          "viewCount": 82,
+          "likeCount": 2,
+          "commentCount": 0,
+          "publishedAt": "2024-09-10T06:00:12Z"
+        },
+        {
+          "id": "LMMxSpH4lN0",
+          "url": "https://www.youtube.com/watch?v=LMMxSpH4lN0",
+          "title": "Debito tecnico e suoi derivati - Parte 2  #programming #technicaldebt #devdojo_it #ilgala",
+          "description": "Filippo \"Il Gala\" Galante ci spiega che cos'è il debito tecnico e  che cosa si sono inventati nella sua azienda per gestirlo",
+          "viewCount": 32,
+          "likeCount": 2,
+          "commentCount": 0,
+          "publishedAt": "2024-09-10T06:00:10Z"
+        },
+        {
+          "id": "6XZhyEJOHcw",
+          "url": "https://www.youtube.com/watch?v=6XZhyEJOHcw",
+          "title": "Debito tecnico e suoi derivati - Parte 4 #programming #technicaldebt #devdojo_it #ilgala #coding",
+          "description": "Filippo \"Il Gala\" Galante ci spiega che cos'è il debito tecnico e  che cosa si sono inventati nella sua azienda per gestirlo",
+          "viewCount": 65,
+          "likeCount": 1,
+          "commentCount": 0,
+          "publishedAt": "2024-09-10T06:00:03Z"
+        }
+      ]
+    }
+  ]
+}

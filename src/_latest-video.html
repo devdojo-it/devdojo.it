@@ -1,0 +1,21 @@
+<article id="latest-video">
+  <youtube-embed video-id="{{latest.id}}"></youtube-embed>
+  <section card>
+    <badge>LIVE</badge>
+    <hgroup>
+      <h3>{{latest.title}}</h3>
+      <h4>UPCOMING EVENT</h4>
+    </hgroup>
+    <time datetime="{{latest.publishedAt}}">{{latest.publishedAt}}</time>
+    <p>{{latest.description}}</p>
+    <p live-on>
+      LIVE ON
+      <a href="http://twitch.tv" target="_blank">
+        <img src="./assets/icons/twitch-color.svg" alt="Twitch" />
+      </a>
+      <a href="http://youtube.com" target="_blank">
+        <img src="./assets/icons/youtube-color.svg" alt="Youtube" />
+      </a>
+    </p>
+  </section>
+</article>

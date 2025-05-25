@@ -10,6 +10,11 @@
 
     padding-block: 10rem;
 
+    background-image: url("../../assets/footer-background.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-position: bottom center;
+
     > img {
       position: absolute;
       inset: auto 0 -3rem auto;

@@ -10,13 +10,19 @@
     "clear:cache": "rm -rf .parcel-cache dist",
     "clear": "yarn clear:cache && rm -rf node_modules yarn.lock",
     "reset": "yarn clear && yarn",
+    "prestart": "yarn clear:cache && yarn ssg",
     "start": "parcel ./src/index.html",
-    "restart": "yarn clear:cache && yarn start",
-    "prebuild": "yarn clear:cache",
+    "ssg": "node --env-file=.env --experimental-modules ./src/scripts/ssg.js",
+    "prebuild": "yarn clear:cache && yarn ssg",
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
-    "parcel": "2.13.3",
-    "svgo": "3.3.2"
+    "parcel": "2.15.2",
+    "svgo": "3.3.2",
+    "posthtml": "0.16.6",
+    "posthtml-doctype": "1.1.1",
+    "posthtml-extend": "0.6.5",
+    "posthtml-include": "2.0.1",
+    "posthtml-modules": "^0.9.1"
   }
 }

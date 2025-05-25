@@ -36,7 +36,10 @@ export default class YouTubeAPI {
   /** Internal helper for GET requests */
   async _request(endpoint, params) {
     const sp = new URLSearchParams({ ...params, key: this.apiKey });
-    const res = await fetch(`${this.base}/${endpoint}?${sp}`);
+    const res = await fetch(`${this.base}/${endpoint}?${sp}`, {
+      headers: { Referer: process.env.REFERER },
+    });
+
     if (!res.ok) {
       const body = await res.text().catch(() => "");
       throw new Error(`YouTube API error ${res.status}: ${res.statusText} ${body}`);
@@ -136,23 +139,37 @@ export default class YouTubeAPI {
       if (typeof onPage === "function") onPage(page);
       pageToken = page.nextPageToken;
     } while (pageToken);
+
     return videos;
   }
 
   searchVideos(
     channelId,
-    { q = "", order = "date", maxResults = 50, pageToken, part = "snippet", type = "video" } = {}
+    {
+      q = "",
+      order = "date",
+      maxResults = 50,
+      pageToken = "",
+      part = "snippet",
+      type = "video",
+    } = {}
   ) {
     return this._request("search", { part, channelId, type, order, q, maxResults, pageToken });
   }
 
   async getLatestVideo(channelId) {
     const search = await this.searchVideos(channelId, { order: "date", maxResults: 1 });
+
     if (!search.items.length) return null;
+
     const vidId = search.items[0].id.videoId;
+
     const meta = (await this._getVideoStats([vidId])).get(vidId);
+
     if (!meta) return null;
+
     const { snippet: sn, stats: s } = meta;
+
     return {
       id: vidId,
       url: YouTubeAPI.videoUrl(vidId),
