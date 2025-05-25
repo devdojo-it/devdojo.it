@@ -1,0 +1,22 @@
+<each loop="playlist in playlists">
+  <article id="playlist-{{playlist.id}}" video-playlist>
+    <section>
+      <h3>{{playlist.title}}</h3>
+      <p>{{playlist.description}}</p>
+    </section>
+    <slider>
+      <stage>
+        <slides>
+          <each loop="video, index in playlist.videos">
+            <slide>
+              <figure tabindex="0">
+                <youtube-embed video-id="{{video.id}}"></youtube-embed>
+                <figcaption>{{video.title}}</figcaption>
+              </figure>
+            </slide>
+          </each>
+        </slides>
+      </stage>
+    </slider>
+  </article>
+</each>

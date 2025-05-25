@@ -3,24 +3,74 @@
     display: flex;
     flex-flow: column;
     place-items: center;
-    place-content: space-between;
+    place-content: center;
+    gap: 3rem;
 
-    aspect-ratio: 1920 / 740;
     inline-size: 100%;
 
     padding: 3rem 3rem 0;
 
-    h2 {
-      display: inline-flex;
-      margin-block-start: auto;
+    background-image: url("../../assets/header-background.svg");
+    background-repeat: no-repeat;
+    background-size: 200vw auto;
+    background-position: top center;
+
+    @media screen and (width >= 512px) {
+      background-size: 150vw auto;
+    }
+
+    @media screen and (width >= 640px) {
+      aspect-ratio: 1920 / 740;
+      background-size: 100vw auto;
+    }
+
+    @media screen and (width >= 800px) {
+      place-content: space-between;
+
+      padding-inline: 3rem;
+    }
+
+    hgroup {
+      display: flex;
+      flex-flow: column nowrap;
+      place-content: center;
+      place-items: center;
+
+      max-inline-size: 90ch;
+
+      text-align: center;
+      text-wrap: balance;
+
+      :last-child {
+        font-family: "Nunito", sans-serif;
+
+        font-weight: 400;
+      }
     }
   }
 
   [logos] {
-    position: absolute;
-    inset: 3rem 3rem auto;
     display: flex;
-    place-content: space-between;
+    flex-flow: column;
+    gap: 3rem;
+
+    place-content: center;
     place-items: center;
+
+    inline-size: 100%;
+
+    > :last-child {
+      display: none;
+    }
+
+    @media screen and (width >= 640px) {
+      flex-flow: row;
+
+      place-content: space-between;
+
+      > :last-child {
+        display: initial;
+      }
+    }
   }
 }

@@ -1,0 +1,52 @@
+@layer sensei {
+  [id="sensei"] {
+    display: flex;
+    flex-flow: column nowrap;
+    place-content: center;
+    place-items: center;
+    gap: 3rem;
+
+    text-align: center;
+
+    background-image: url("../../assets/sensei-background.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -25rem 30%;
+
+    [sensei-container] {
+      display: flex;
+      flex-flow: row wrap;
+      place-content: center;
+      place-items: start;
+      gap: 3rem;
+
+      article {
+        display: flex;
+        flex-flow: column nowrap;
+        place-items: center;
+        place-content: center;
+        gap: 1.5rem;
+
+
+        inline-size: 30rem;
+
+        text-align: center;
+        text-wrap: balance;
+      }
+
+      figure {
+        display: flex;
+        place-items: center;
+        place-content: center;
+
+        inline-size: 20rem;
+        aspect-ratio: 1;
+
+        border-radius: 50%;
+        margin: 0;
+
+        background-color: #ffffff99;
+      }
+    }
+  }
+}

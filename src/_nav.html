@@ -1,0 +1,8 @@
+<nav>
+  <a href="#">Home</a>
+  <a href="#sensei">I nostri Sensei</a>
+  <a href="#partners">I nostri Amici</a>
+  <each loop="playlist, index in playlists">
+    <a href="#playlist-{{playlist.id}}">{{playlist.title}}</a>
+  </each>
+</nav>

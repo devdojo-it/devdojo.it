@@ -1,41 +1,81 @@
 @layer slider {
   slider {
     display: flex;
-    padding-inline: 2rem;
+
+    @media screen and (width >= 992px) {
+      padding-inline: 2rem;
+    }
 
     stage {
       display: flex;
 
-      width: 100%;
+      inline-size: 100%;
 
-      overflow-x: scroll;
-      overflow-y: none;
-      scroll-behavior: smooth;
-      scroll-snap-type: x mandatory;
-      overscroll-behavior: none;
+      overflow: hidden;
+
+      @media screen and (width >= 992px) {
+        overflow-x: scroll;
+        overflow-y: none;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        overscroll-behavior: none;
+      }
 
       slides {
+        --slides-gap: 1rem;
+
         display: flex;
-        flex-flow: row nowrap;
-        gap: 3rem;
+        flex-flow: column nowrap;
+        place-items: start;
+        place-content: center;
+        gap: var(--slides-gap);
+
+        inline-size: 100%;
+
+        @media screen and (width >= 992px) {
+          --slides-gap: 3rem;
+
+          flex-flow: row nowrap;
+
+          inline-size: auto;
+        }
 
         slide {
           scroll-snap-align: start;
+
+          inline-size: 100%;
+
+          @media screen and (width >= 992px) {
+            inline-size: 56rem;
+          }
         }
 
         figure {
-          inline-size: 56rem;
+          display: flex;
+          flex-flow: column nowrap;
+          gap: 1rem;
+
+          inline-size: 100%;
           aspect-ratio: 560/315;
 
-          border-radius: 2.5rem;
+          border-radius: 3rem;
           margin: 1rem 1rem 2.5rem;
 
           youtube-embed {
-            border-radius: 2.5rem;
+            border-radius: 3rem;
           }
 
           figcaption {
-            padding-inline: 0.8rem;
+            padding: 0.8rem;
+
+            font-size: 1.5em;
+            text-align: center;
+            text-wrap: balance;
+
+            @media screen and (width >= 992px) {
+              text-align: initial;
+              text-wrap: initial;
+            }
           }
         }
       }
