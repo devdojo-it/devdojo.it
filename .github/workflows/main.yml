@@ -19,6 +19,13 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/package.json') }}
           restore-keys: |
             ${{ runner.os }}-
+      - name: Create .env file
+        run: |
+          touch .env
+          echo API_KEY = ${{ secrets.API_KEY }} >> .env
+          echo CHANNEL_ID = ${{ secrets.CHANNEL_ID }} >> .env
+          echo REFERER = ${{ secrets.REFERER }} >> .env
+
       - name: Install Dependencies
         run: yarn install
       - name: Build
