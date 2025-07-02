@@ -1,46 +1,38 @@
 @layer nav {
   nav {
-    position: fixed;
-    inset: 20rem 0 auto auto;
-    z-index: 2;
-
-    display: none;
-    flex-flow: column nowrap;
+    display: flex;
+    flex-flow: row nowrap;
     place-content: start;
     place-items: end;
-    gap: 0.5rem;
-
-    color: #fff;
-    background-color: #ffaed359;
+    gap: 2.5rem;
 
     padding: 2.8rem 3.6rem;
-    border-top-left-radius: 3.5rem;
-    border-bottom-left-radius: 3.5rem;
+    border-radius: 3.5rem;
 
-    @media screen and (width >= 1024px) {
-      display: flex;
-    }
+    background-color: hsla(270, 85%, 40%, 0.5);
 
     a {
-      font-family: "Nunito";
-      color: #fff;
-
       border-radius: 0.5rem;
 
+      color: #fff;
+
+      font-family: "Nunito";
+      font-size: 1.2em;
+      font-weight: 600;
       text-decoration: none;
 
       &:hover {
         text-decoration: underline;
       }
 
-      @media (prefers-reduced-motion: no-preference) {
+      /* @media (prefers-reduced-motion: no-preference) {
         transform: translateX(0);
         transition: transform 300ms linear;
 
         &:hover {
-          transform: translateX(-0.5rem);
+          transform: translateY(0.5rem);
         }
-      }
+      } */
     }
   }
 }

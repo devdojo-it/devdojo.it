@@ -1,5 +1,5 @@
-@layer sensei {
-  [id="sensei"] {
+@layer courses {
+  [id="courses"] {
     display: flex;
     flex-flow: column nowrap;
     place-content: center;
@@ -8,12 +8,12 @@
 
     text-align: center;
 
-    background-image: url("../../assets/sensei-background.svg");
+    background-image: url("../../assets/courses-background.svg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: -25rem 30%;
 
-    [sensei-container] {
+    [courses-container] {
       display: flex;
       flex-flow: row wrap;
       place-content: center;
@@ -29,10 +29,14 @@
 
         inline-size: 30rem;
         padding: 1rem;
-        border-radius: .7rem;
+        border-radius: 0.7rem;
 
         text-align: center;
         text-wrap: balance;
+
+        h5 {
+          white-space: nowrap;
+        }
       }
 
       figure {
@@ -47,6 +51,10 @@
         margin: 0;
 
         background-color: #ffffff99;
+
+        img {
+          inline-size: 85%;
+        }
       }
     }
   }

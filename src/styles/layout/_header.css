@@ -1,5 +1,9 @@
 @layer header {
   header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
     display: flex;
     flex-flow: column;
     place-items: center;
@@ -8,44 +12,13 @@
 
     inline-size: 100%;
 
-    padding: 3rem 3rem 0;
-
-    background-image: url("../../assets/header-background.svg");
-    background-repeat: no-repeat;
-    background-size: 200vw auto;
-    background-position: top center;
-
-    @media screen and (width >= 512px) {
-      background-size: 150vw auto;
-    }
-
-    @media screen and (width >= 640px) {
-      aspect-ratio: 1920 / 740;
-      background-size: 100vw auto;
-    }
+    padding: 3rem;
+    backdrop-filter: blur(15px);
 
     @media screen and (width >= 800px) {
       place-content: space-between;
 
       padding-inline: 3rem;
-    }
-
-    hgroup {
-      display: flex;
-      flex-flow: column nowrap;
-      place-content: center;
-      place-items: center;
-
-      max-inline-size: 90ch;
-
-      text-align: center;
-      text-wrap: balance;
-
-      :last-child {
-        font-family: "Nunito", sans-serif;
-
-        font-weight: 400;
-      }
     }
   }
 
@@ -59,11 +32,19 @@
 
     inline-size: 100%;
 
+    :has([social]) {
+      display: flex;
+      flex-flow: column nowrap;
+      place-content: center;
+      place-items: center;
+      gap: 2rem;
+    }
+
     > :last-child {
       display: none;
     }
 
-    @media screen and (width >= 640px) {
+    @media screen and (width >= 1024px) {
       flex-flow: row;
 
       place-content: space-between;

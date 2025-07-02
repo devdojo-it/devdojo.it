@@ -1,9 +1,11 @@
 @import "./_header.css" layer(layout);
-@import "./_main.css" layer(layout);
 @import "./_nav.css" layer(layout);
+@import "./_hero.css" layer(layout);
+@import "./_main.css" layer(layout);
 @import "./_latest-video.css" layer(layout);
+@import "./_courses.css" layer(layout);
 @import "./_sensei.css" layer(layout);
-@import "./_playlist.css" layer(layout);
+@import "./_playlists.css" layer(layout);
 @import "./_partners.css" layer(layout);
 @import "./_footer.css" layer(layout);
 
@@ -18,5 +20,28 @@
     color: #fff;
     background-color: hsl(270, 85%, 31%);
     background-image: linear-gradient(180deg, hsl(270, 85%, 25%) 0%, hsl(272, 97%, 18%) 100%);
+    scroll-margin: 2rem;
+  }
+
+  main > section {
+    scroll-margin-block: 18rem;
+  }
+
+  [title] {
+    display: flex;
+    flex-flow: column nowrap;
+    place-content: center;
+    place-items: center;
+    gap: 1rem;
+
+    h3 {
+      padding-block: 3rem;
+    }
+
+    p {
+      max-inline-size: 75ch;
+
+      text-align: center;
+    }
   }
 }

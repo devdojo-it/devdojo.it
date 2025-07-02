@@ -17,12 +17,12 @@
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
-    "parcel": "2.15.2",
+    "parcel": "2.15.4",
     "svgo": "3.3.2",
     "posthtml": "0.16.6",
     "posthtml-doctype": "1.1.1",
     "posthtml-extend": "0.6.5",
     "posthtml-include": "2.0.1",
-    "posthtml-modules": "^0.9.1"
+    "posthtml-modules": "0.9.1"
   }
 }

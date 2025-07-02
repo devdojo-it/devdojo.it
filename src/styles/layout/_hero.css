@@ -1,0 +1,39 @@
+@layer hero {
+  section[id="hero"] {
+    display: flex;
+    place-content: center;
+    place-items: end;
+
+    background-image: url("../../assets/header-background.svg");
+    background-repeat: no-repeat;
+    background-size: 200vw auto;
+    background-position: top center;
+
+    @media screen and (width >= 512px) {
+      background-size: 150vw auto;
+    }
+
+    @media screen and (width >= 640px) {
+      aspect-ratio: 1920 / 740;
+      background-size: 100vw auto;
+    }
+
+    hgroup {
+      display: flex;
+      flex-flow: column nowrap;
+      place-content: center;
+      place-items: center;
+
+      max-inline-size: 90ch;
+
+      text-align: center;
+      text-wrap: balance;
+
+      :last-child {
+        font-family: "Nunito", sans-serif;
+
+        font-weight: 400;
+      }
+    }
+  }
+}

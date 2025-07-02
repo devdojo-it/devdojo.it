@@ -22,19 +22,6 @@
       aspect-ratio: 1755 / 835;
       margin: 0;
     }
-
-    [title] {
-      display: flex;
-      flex-flow: column nowrap;
-      place-content: center;
-      place-items: center;
-      gap: 1rem;
-
-      p {
-        max-inline-size: 75ch;
-        text-align: center;
-      }
-    }
   }
 
   [partners-container] {
